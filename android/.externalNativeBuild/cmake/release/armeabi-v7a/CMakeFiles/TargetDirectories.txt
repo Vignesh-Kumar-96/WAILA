@@ -1,0 +1,3 @@
+/home/vignesh/Documents/tensorflow/tensorflow/examples/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/vignesh/Documents/tensorflow/tensorflow/examples/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/vignesh/Documents/tensorflow/tensorflow/examples/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/tensorflow_demo.dir
