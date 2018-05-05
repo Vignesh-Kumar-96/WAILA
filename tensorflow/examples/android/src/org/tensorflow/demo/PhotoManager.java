@@ -1,9 +1,11 @@
 package org.tensorflow.demo;
 
 import android.app.Activity;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.location.LocationManager;
 import android.support.v4.content.ContextCompat;
 import android.util.Base64;
 import android.util.Log;
@@ -25,6 +27,8 @@ public class PhotoManager {
     protected String baseDir;
     protected String userName;
     protected DatabaseReference userDB;
+
+
 
     static PhotoManager photoManagerInstance = null;
 
@@ -65,6 +69,7 @@ public class PhotoManager {
     }
 
     public Boolean uploadPhoto(String title, byte[] data) {
+
         if (data == null) return false;
         Log.d("PhotoManager", "uploading photo titled " + title + " user: " + userName);
 

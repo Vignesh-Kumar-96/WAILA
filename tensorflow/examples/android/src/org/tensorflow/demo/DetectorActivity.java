@@ -29,6 +29,7 @@ import android.graphics.Typeface;
 import android.media.ImageReader.OnImageAvailableListener;
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.Size;
 import android.util.TypedValue;
@@ -103,6 +104,9 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
   private byte[] luminanceCopy;
 
+    private int height;
+    private int width;
+
   private BorderedText borderedText;
   @Override
   public void onPreviewSizeChosen(final Size size, final int rotation) {
@@ -128,8 +132,14 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
         finish();
       }
 
+
     previewWidth = size.getWidth();
     previewHeight = size.getHeight();
+
+    DisplayMetrics displayMetrics = new DisplayMetrics();
+    getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+    height = displayMetrics.heightPixels;
+    width = displayMetrics.widthPixels;
 
     sensorOrientation = rotation - getScreenOrientation();
     LOGGER.i("Camera orientation relative to screen canvas: %d", sensorOrientation);
@@ -227,12 +237,22 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
                       @Override
                       public boolean onTouch(View view, MotionEvent motionEvent) {
 
-                          int x = (int) motionEvent.getX();
-                          int y = (int) motionEvent.getY();
+                          float x = (float) motionEvent.getX();
+                          float y = (float) motionEvent.getY();
+
+                          x = (x / width) * previewWidth;
+                          y = (y/ height) * previewHeight;
                           //Log.i("ON CLICK: ", "CLICKED");
                           if(motionEvent.getAction() == MotionEvent.ACTION_DOWN){
                               //Log.i("ON CLICK: ", "CLICKED");
-                              if (y >= location.top + 320 && y <= location.bottom + 320 && x <= location.right && x >= location.left){
+                              Log.v("(X,Y): ", "(" + Float.toString(x) + "," + Float.toString(y) + ")");
+                              Log.v("TOP", Float.toString(location.top));
+                              Log.v("BOTTOM", Float.toString(location.bottom));
+                              Log.v("LEFT", Float.toString(location.left));
+                              Log.v("RIGHT", Float.toString(location.right));
+                              Log.v("(PHEIGHT,PWIDTH): ", "(" + Integer.toString(previewHeight) + "," + Integer.toString(previewWidth) + ")");
+                              Log.v("(SHEIGHT,SWIDTH): ", "(" + Integer.toString(height) + "," + Integer.toString(width) + ")");
+                              if (y >= location.top && y <= location.bottom && x <= location.right && x >= location.left){
                                   Log.i("ON CLICK: ", "CLICKED " + result.getTitle().toString());
                                   Bundle b = new Bundle();
                                   Intent i = new Intent(getApplicationContext(), WikiActivity.class);

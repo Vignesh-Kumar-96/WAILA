@@ -1,10 +1,16 @@
 package org.tensorflow.demo;
-
+import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.location.Location;
+import android.location.LocationManager;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -39,11 +45,17 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
     private PhotoManager photoManager;
     private Bitmap bitmapimage;
     private String title;
+    private static final int MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 99;
+    String locationProvider;
+    LocationManager locationManager;
+    Location lastKnownLocation;
     private final String BASE_URL =
             "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts%7Cpageimages&list=&meta=&continue=&redirects=1&titles=";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.wiki_main);
         Intent activityThatCalled = getIntent();
@@ -86,6 +98,8 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
         String url = BASE_URL;
         if(searchTerm.toLowerCase().equals("keyboard"))
             searchTerm = "computer keyboard";
+        if(searchTerm.toLowerCase().equals("remote"))
+            searchTerm = "remote control";
         if(!searchTerm.equals("") && searchTerm.length()<512){
             url += searchTerm ;
         }
@@ -101,6 +115,7 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
             save_button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    get_location();
                     photoManager = PhotoManager.getInstance();
                     byte[] photo_bytes = photoManager.convertBitmapToBytes(bitmapimage, 100);
                     if(photoManager.uploadPhoto(title, photo_bytes)){
@@ -159,6 +174,62 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
         }
         return super.onOptionsItemSelected(item);
     }
+
+    public void onRequestPermissionsResult(int requestCode,
+                                           String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION: {
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    get_location();
+                } else {
+                    Log.v("Location", "Not Granted");
+                }
+                return;
+            }
+
+        }
+    }
+
+    public void get_location(){
+        if (ContextCompat.checkSelfPermission(getApplicationContext(),
+                Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+
+            if (ActivityCompat.shouldShowRequestPermissionRationale(this,
+                    Manifest.permission.ACCESS_FINE_LOCATION)) {
+            } else {
+                ActivityCompat.requestPermissions(this,
+                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                        MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
+            }
+        }
+
+        else{
+
+            locationManager = (LocationManager) getApplicationContext().getSystemService(Context.LOCATION_SERVICE);
+            locationProvider = LocationManager.NETWORK_PROVIDER;
+            lastKnownLocation = locationManager.getLastKnownLocation(locationProvider);
+
+            if(lastKnownLocation == null){
+                Log.v("LOCATION", "NULL");
+            }
+
+            else{
+                Log.v("Location", locationStringFromLocation(lastKnownLocation));
+            }
+
+
+
+        }
+    }
+
+    public static String locationStringFromLocation(final Location location) {
+        return Location.convert(location.getLatitude(), Location.FORMAT_DEGREES) + " " + Location.convert(location.getLongitude(), Location.FORMAT_DEGREES);
+    }
+
+
 
 
 }
