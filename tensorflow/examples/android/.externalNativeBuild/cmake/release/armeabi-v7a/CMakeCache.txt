@@ -21,7 +21,7 @@ ANDROID_ABI:UNINITIALIZED=armeabi-v7a
 ANDROID_NDK:UNINITIALIZED=/home/vignesh/Android/Sdk/ndk-bundle
 
 //No help, variable specified on the command line.
-ANDROID_PLATFORM:UNINITIALIZED=android-21
+ANDROID_PLATFORM:UNINITIALIZED=android-23
 
 //No help, variable specified on the command line.
 ANDROID_STL:UNINITIALIZED=gnustl_static

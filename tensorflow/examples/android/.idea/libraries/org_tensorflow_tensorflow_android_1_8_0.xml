@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="org.tensorflow:tensorflow-android-1.8.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/85818f8e32ecc395bced73213eca5dc1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/85818f8e32ecc395bced73213eca5dc1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/40a9a8b047a7e3fbda71c3e4f598152f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/40a9a8b047a7e3fbda71c3e4f598152f/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

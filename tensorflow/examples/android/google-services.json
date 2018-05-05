@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "339245672994",
+    "firebase_url": "https://waila-c24ec.firebaseio.com",
+    "project_id": "waila-c24ec",
+    "storage_bucket": "waila-c24ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339245672994:android:b01db18433589acd",
+        "android_client_info": {
+          "package_name": "org.tensorflow.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339245672994-dpqldhbtjcqr744o6a2132dbh34k2am0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.tensorflow.demo",
+            "certificate_hash": "b6154063bd49a50f23e630d7fff75181523348ac"
+          }
+        },
+        {
+          "client_id": "339245672994-jrqso9r9rof3i9gfgr41i8ms75oelt8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwU1erePRYUPH-4slO6ez1VOr5UR88m48"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339245672994-jrqso9r9rof3i9gfgr41i8ms75oelt8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

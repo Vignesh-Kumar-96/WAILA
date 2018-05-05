@@ -2,7 +2,7 @@ The target system is: Android - 1 - armv7-a
 The host system is: Linux - 4.15.0-20-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc 
-Build flags: -isystem;/home/vignesh/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi;-D__ANDROID_API__=21;-g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-march=armv7-a;-mfloat-abi=softfp;-mfpu=vfpv3-d16;-mthumb;-Wa,--noexecstack;-Wformat;-Werror=format-security;
+Build flags: -isystem;/home/vignesh/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi;-D__ANDROID_API__=23;-g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-march=armv7-a;-mfloat-abi=softfp;-mfpu=vfpv3-d16;-mthumb;-Wa,--noexecstack;-Wformat;-Werror=format-security;
 Id flags: -c
 
 The output was:
@@ -15,7 +15,7 @@ The C compiler identification is GNU, found in "/home/vignesh/Documents/WAILA/te
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++ 
-Build flags: -isystem;/home/vignesh/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi;-D__ANDROID_API__=21;-g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-march=armv7-a;-mfloat-abi=softfp;-mfpu=vfpv3-d16;-mthumb;-Wa,--noexecstack;-Wformat;-Werror=format-security;;
+Build flags: -isystem;/home/vignesh/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi;-D__ANDROID_API__=23;-g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-march=armv7-a;-mfloat-abi=softfp;-mfpu=vfpv3-d16;-mthumb;-Wa,--noexecstack;-Wformat;-Werror=format-security;;
 Id flags: -c
 
 The output was:
@@ -29,17 +29,17 @@ The CXX compiler identification is GNU, found in "/home/vignesh/Documents/WAILA/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_fd11d"
-[1/2] Building C object CMakeFiles/cmTC_fd11d.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_fd11d
+Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_8a9f7"
+[1/2] Building C object CMakeFiles/cmTC_8a9f7.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_8a9f7
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_a6f70"
-[1/2] Building C object CMakeFiles/cmTC_a6f70.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_a6f70
+Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_c2230"
+[1/2] Building C object CMakeFiles/cmTC_c2230.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_c2230
 Using built-in specs.
 COLLECT_GCC=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc
 COLLECT_LTO_WRAPPER=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper
@@ -48,18 +48,18 @@ Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../g
 Thread model: posix
 gcc version 4.9.x 20150123 (prerelease) (GCC) 
 COMPILER_PATH=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
-LIBRARY_PATH=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/
-COLLECT_GCC_OPTIONS='-isystem' '/home/vignesh/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi' '-D' '__ANDROID_API__=21' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_a6f70' '-mtls-dialect=gnu'
- /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5JFGGz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_a6f70 /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_a6f70.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/crtend_android.o
+LIBRARY_PATH=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-isystem' '/home/vignesh/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi' '-D' '__ANDROID_API__=23' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_c2230' '-mtls-dialect=gnu'
+ /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCl4voZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_c2230 /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_c2230.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_a6f70"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_a6f70.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_a6f70]
+  ignore line: [Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_c2230"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_c2230.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_c2230]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper]
@@ -68,19 +68,19 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
   ignore line: [COMPILER_PATH=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
-  ignore line: [LIBRARY_PATH=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/vignesh/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi' '-D' '__ANDROID_API__=21' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_a6f70' '-mtls-dialect=gnu']
-  link line: [ /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5JFGGz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_a6f70 /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_a6f70.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/crtend_android.o]
+  ignore line: [LIBRARY_PATH=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/vignesh/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi' '-D' '__ANDROID_API__=23' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_c2230' '-mtls-dialect=gnu']
+  link line: [ /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccCl4voZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_c2230 /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_c2230.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/crtend_android.o]
     arg [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc5JFGGz.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccCl4voZ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-ldl] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--sysroot=/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm] ==> ignore
+    arg [--sysroot=/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
@@ -92,14 +92,14 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a6f70] ==> ignore
-    arg [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [cmTC_c2230] ==> ignore
+    arg [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
     arg [-L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
     arg [-L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
     arg [-L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc]
     arg [-L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
-    arg [-L/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+    arg [-L/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
     arg [--exclude-libs] ==> ignore
     arg [libgcc.a] ==> ignore
     arg [--exclude-libs] ==> ignore
@@ -114,12 +114,12 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_a6f70.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_c2230.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
     arg [-ldl] ==> lib [dl]
     arg [-lgcc] ==> lib [gcc]
-    arg [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/crtend_android.o] ==> ignore
+    arg [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
   collapse library dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
@@ -127,9 +127,9 @@ Parsed C implicit link information from above output:
   collapse library dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   collapse library dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc]
   collapse library dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib]
-  collapse library dir [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib] ==> [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+  collapse library dir [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib] ==> [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
   implicit libs: [c;dl]
-  implicit dirs: [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib;/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+  implicit dirs: [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib;/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
   implicit fwks: []
 
 
@@ -138,9 +138,9 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_a7c49"
-[1/2] Building C object CMakeFiles/cmTC_a7c49.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_a7c49
+Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_02ad8"
+[1/2] Building C object CMakeFiles/cmTC_02ad8.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_02ad8
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -152,9 +152,9 @@ Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_19c21"
-[1/2] Building C object CMakeFiles/cmTC_19c21.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_19c21
+Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_48795"
+[1/2] Building C object CMakeFiles/cmTC_48795.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_48795
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -166,9 +166,9 @@ Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_50f10"
-[1/2] Building C object CMakeFiles/cmTC_50f10.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_50f10
+Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_71d04"
+[1/2] Building C object CMakeFiles/cmTC_71d04.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_71d04
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -178,17 +178,17 @@ Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_87cd3"
-[1/2] Building CXX object CMakeFiles/cmTC_87cd3.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_87cd3
+Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_0872f"
+[1/2] Building CXX object CMakeFiles/cmTC_0872f.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_0872f
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_cf7f9"
-[1/2] Building CXX object CMakeFiles/cmTC_cf7f9.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_cf7f9
+Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_86e63"
+[1/2] Building CXX object CMakeFiles/cmTC_86e63.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_86e63
 Using built-in specs.
 COLLECT_GCC=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++
 COLLECT_LTO_WRAPPER=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper
@@ -197,18 +197,18 @@ Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../g
 Thread model: posix
 gcc version 4.9.x 20150123 (prerelease) (GCC) 
 COMPILER_PATH=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
-LIBRARY_PATH=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/
-COLLECT_GCC_OPTIONS='-isystem' '/home/vignesh/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi' '-D' '__ANDROID_API__=21' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_cf7f9' '-mtls-dialect=gnu'
- /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAIZHVU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_cf7f9 /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_cf7f9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -ldl -lgcc /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/crtend_android.o
+LIBRARY_PATH=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-isystem' '/home/vignesh/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi' '-D' '__ANDROID_API__=23' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_86e63' '-mtls-dialect=gnu'
+ /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvA8f1j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_86e63 /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_86e63.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -ldl -lgcc /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_cf7f9"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_cf7f9.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_cf7f9]
+  ignore line: [Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_86e63"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_86e63.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_86e63]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper]
@@ -217,19 +217,19 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
   ignore line: [COMPILER_PATH=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
-  ignore line: [LIBRARY_PATH=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/vignesh/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi' '-D' '__ANDROID_API__=21' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_cf7f9' '-mtls-dialect=gnu']
-  link line: [ /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAIZHVU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_cf7f9 /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_cf7f9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -ldl -lgcc /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/crtend_android.o]
+  ignore line: [LIBRARY_PATH=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/vignesh/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi' '-D' '__ANDROID_API__=23' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-Wformat=1' '-Werror=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_86e63' '-mtls-dialect=gnu']
+  link line: [ /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvA8f1j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -pie -o cmTC_86e63 /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/crtbegin_dynamic.o -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_86e63.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -ldl -lgcc /home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/crtend_android.o]
     arg [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccAIZHVU.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccvA8f1j.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-ldl] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--sysroot=/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm] ==> ignore
+    arg [--sysroot=/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
@@ -241,14 +241,14 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_cf7f9] ==> ignore
-    arg [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [cmTC_86e63] ==> ignore
+    arg [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
     arg [-L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
     arg [-L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
     arg [-L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc]
     arg [-L/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
-    arg [-L/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+    arg [-L/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib] ==> dir [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
     arg [--exclude-libs] ==> ignore
     arg [libgcc.a] ==> ignore
     arg [--exclude-libs] ==> ignore
@@ -263,14 +263,14 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_cf7f9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_86e63.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
     arg [-ldl] ==> lib [dl]
     arg [-lgcc] ==> lib [gcc]
-    arg [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/crtend_android.o] ==> ignore
+    arg [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib/crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
   collapse library dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
@@ -278,9 +278,9 @@ Parsed CXX implicit link information from above output:
   collapse library dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   collapse library dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc]
   collapse library dir [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib]
-  collapse library dir [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib] ==> [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+  collapse library dir [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib] ==> [/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
   implicit libs: [stdc++;m;c;dl]
-  implicit dirs: [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib;/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+  implicit dirs: [/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc;/home/vignesh/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib;/home/vignesh/Android/Sdk/ndk-bundle/platforms/android-23/arch-arm/usr/lib]
   implicit fwks: []
 
 
@@ -289,9 +289,9 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_fa796"
-[1/2] Building CXX object CMakeFiles/cmTC_fa796.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_fa796
+Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_3b1a5"
+[1/2] Building CXX object CMakeFiles/cmTC_3b1a5.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_3b1a5
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -356,9 +356,9 @@ Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_a6aab"
-[1/2] Building CXX object CMakeFiles/cmTC_a6aab.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_a6aab
+Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_62d73"
+[1/2] Building CXX object CMakeFiles/cmTC_62d73.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_62d73
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -423,9 +423,9 @@ Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b370e"
-[1/2] Building CXX object CMakeFiles/cmTC_b370e.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_b370e
+Run Build Command:"/home/vignesh/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_ced71"
+[1/2] Building CXX object CMakeFiles/cmTC_ced71.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_ced71
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
