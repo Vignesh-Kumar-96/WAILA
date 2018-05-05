@@ -1,0 +1,16 @@
+# ninja log v5
+0	173	0	CMakeFiles/tensorflow_demo.dir/imageutils_jni.cc.o	73be94a20eb13336
+1	433	0	CMakeFiles/tensorflow_demo.dir/object_tracking/frame_pair.cc.o	ba891983c74e5cd3
+1	434	0	CMakeFiles/tensorflow_demo.dir/object_tracking/logging.cc.o	95b43ecdc8e9b67
+1	539	0	CMakeFiles/tensorflow_demo.dir/object_tracking/image_neon.cc.o	2f142f8d17933a1c
+539	665	0	CMakeFiles/tensorflow_demo.dir/rgb2yuv.cc.o	1fceabd0c82cc8d5
+1	813	0	CMakeFiles/tensorflow_demo.dir/object_tracking/object_detector.cc.o	abddaa22af74214f
+434	877	0	CMakeFiles/tensorflow_demo.dir/object_tracking/time_log.cc.o	e810c428ae2ef773
+813	952	0	CMakeFiles/tensorflow_demo.dir/yuv2rgb.cc.o	68e53bed6e6ae714
+0	1100	0	CMakeFiles/tensorflow_demo.dir/object_tracking/keypoint_detector.cc.o	5f171b81922db7fa
+173	1106	0	CMakeFiles/tensorflow_demo.dir/object_tracking/optical_flow.cc.o	77fa41c2926dfb39
+433	1250	0	CMakeFiles/tensorflow_demo.dir/object_tracking/tracked_object.cc.o	37000f2799d528e3
+1	1262	0	CMakeFiles/tensorflow_demo.dir/object_tracking/object_tracker_jni.cc.o	276e66609375992f
+665	1269	0	CMakeFiles/tensorflow_demo.dir/object_tracking/utils_neon.cc.o	81af5ee09dfa72c2
+1	1798	0	CMakeFiles/tensorflow_demo.dir/object_tracking/object_tracker.cc.o	18170c54661bc501
+1798	2350	0	/home/vignesh/Documents/WAILA/tensorflow/examples/android/gradleBuild/intermediates/cmake/debug/obj/armeabi-v7a/libtensorflow_demo.so	e7a08b2d1a2c0996
