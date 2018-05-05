@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity
     protected String userName;
     private Button main_button;
     private TextView login_text;
+    PhotoManager photoManager;
 
     protected void firebaseInit() {
         mAuth = FirebaseAuth.getInstance();
@@ -79,6 +80,8 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
+        photoManager = PhotoManager.getInstance();
+
         firebaseInit();
         main_button.performClick();
     }
@@ -89,6 +92,8 @@ public class MainActivity extends AppCompatActivity
         login_text.setText("Logged in as " + userName);
         main_button.setVisibility(View.VISIBLE);
         login_text.setVisibility(View.VISIBLE);
+
+        photoManager.updateCurrentUserName(userName);
 
         Intent toDetector = new Intent(this, DetectorActivity.class);
         startActivity(toDetector);
