@@ -3699,23 +3699,25 @@ public final class R {
     public static final int ic_action_info=0x7f070078;
     public static final int ic_cloud_download_black_50dp=0x7f070079;
     public static final int ic_launcher=0x7f07007a;
-    public static final int navigation_empty_icon=0x7f07007b;
-    public static final int notification_action_background=0x7f07007c;
-    public static final int notification_bg=0x7f07007d;
-    public static final int notification_bg_low=0x7f07007e;
-    public static final int notification_bg_low_normal=0x7f07007f;
-    public static final int notification_bg_low_pressed=0x7f070080;
-    public static final int notification_bg_normal=0x7f070081;
-    public static final int notification_bg_normal_pressed=0x7f070082;
-    public static final int notification_icon_background=0x7f070083;
-    public static final int notification_template_icon_bg=0x7f070084;
-    public static final int notification_template_icon_low_bg=0x7f070085;
-    public static final int notification_tile_bg=0x7f070086;
-    public static final int notify_panel_notification_icon_bg=0x7f070087;
-    public static final int side_nav_bar=0x7f070088;
-    public static final int tile=0x7f070089;
-    public static final int tooltip_frame_dark=0x7f07008a;
-    public static final int tooltip_frame_light=0x7f07008b;
+    public static final int icon=0x7f07007b;
+    public static final int navigation_empty_icon=0x7f07007c;
+    public static final int notification_action_background=0x7f07007d;
+    public static final int notification_bg=0x7f07007e;
+    public static final int notification_bg_low=0x7f07007f;
+    public static final int notification_bg_low_normal=0x7f070080;
+    public static final int notification_bg_low_pressed=0x7f070081;
+    public static final int notification_bg_normal=0x7f070082;
+    public static final int notification_bg_normal_pressed=0x7f070083;
+    public static final int notification_icon_background=0x7f070084;
+    public static final int notification_template_icon_bg=0x7f070085;
+    public static final int notification_template_icon_low_bg=0x7f070086;
+    public static final int notification_tile_bg=0x7f070087;
+    public static final int notify_panel_notification_icon_bg=0x7f070088;
+    public static final int side_nav_bar=0x7f070089;
+    public static final int tile=0x7f07008a;
+    public static final int tooltip_frame_dark=0x7f07008b;
+    public static final int tooltip_frame_light=0x7f07008c;
+    public static final int web_hi_res_512=0x7f07008d;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -4550,6 +4552,7 @@ public final class R {
     public static final int Widget_Design_TextInputLayout=0x7f0d018a;
     public static final int Widget_SampleMessage=0x7f0d018b;
     public static final int Widget_SampleMessageTile=0x7f0d018c;
+    public static final int myDialog=0x7f0d018d;
   }
   public static final class styleable {
     /**

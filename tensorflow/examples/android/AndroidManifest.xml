@@ -34,8 +34,8 @@
 
     <application android:allowBackup="true"
         android:debuggable="true"
-        android:label="@string/app_name"
-        android:icon="@drawable/ic_launcher"
+        android:label="WAILA"
+        android:icon="@drawable/icon"
         android:theme="@style/MaterialTheme">
 
         <activity

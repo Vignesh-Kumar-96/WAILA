@@ -7,6 +7,12 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/web_hi_res_512"/>
+
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"
@@ -16,7 +22,7 @@
         android:maxLines="1"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:paddingTop="100dp" />
+        android:paddingTop="10dp" />
 
     <EditText
         android:id="@+id/password"
@@ -57,7 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="80dp">
+        android:layout_marginTop="50dp">
 
         <View
             android:layout_width="wrap_content"
@@ -91,7 +97,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:paddingLeft="40dp"
         android:paddingRight="40dp"
         android:text="Create New Waila account" />

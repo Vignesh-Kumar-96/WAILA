@@ -35,8 +35,8 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginRight="10dp"
         android:textSize="17dp"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintStart_toEndOf="@id/picTextRowPic"
+        android:layout_marginLeft="10dp"/>
 
 </android.support.constraint.ConstraintLayout>
