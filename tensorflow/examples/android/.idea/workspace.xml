@@ -68,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dbView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/dbView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
@@ -126,19 +126,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Memory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/Memory.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -149,15 +136,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_or_create.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login_or_create.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/login_or_create.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="99" column="35" lean-forward="false" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="-2105">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
+          <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
         </entry>
@@ -165,7 +152,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2946">
+            <state relative-caret-position="366">
               <caret line="213" column="75" lean-forward="false" selection-start-line="213" selection-start-column="75" selection-end-line="213" selection-end-column="75" />
               <folding />
             </state>
@@ -186,8 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>location</find>
-      <find>d</find>
       <find>deco</find>
       <find>decod</find>
       <find>decode</find>
@@ -200,8 +185,6 @@
       <find>ndroid:label=&quot;WAILA&quot;</find>
       <find>u</find>
       <find>uc</find>
-      <find>ic</find>
-      <find>icon</find>
       <find>t</find>
       <find>toa</find>
       <find>toas</find>
@@ -213,9 +196,13 @@
       <find>getDataC</find>
       <find>getDataCa</find>
       <find>getDataCal</find>
-      <find>getDataCall</find>
       <find>log</find>
       <find>toast</find>
+      <find>getDataCall</find>
+      <find>i</find>
+      <find>ic</find>
+      <find>icon</find>
+      <find>/icon</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -1275,12 +1262,12 @@
         <option value="$PROJECT_DIR$/src/org/tensorflow/demo/Memory.java" />
         <option value="$PROJECT_DIR$/res/layout/memory_layout.xml" />
         <option value="$PROJECT_DIR$/res/layout/pic_text_row.xml" />
-        <option value="$PROJECT_DIR$/res/layout/login_or_create.xml" />
         <option value="$PROJECT_DIR$/src/org/tensorflow/demo/WikiActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/bin/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/src/org/tensorflow/demo/dbView.java" />
+        <option value="$PROJECT_DIR$/res/layout/login_or_create.xml" />
       </list>
     </option>
   </component>
@@ -1333,46 +1320,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles.xml" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1402,24 +1349,6 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane" />
@@ -1427,7 +1356,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="6958c0a0" />
+    <property name="device.picker.selection" value="H4AXGY0425254S2" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/vignesh/Documents/tensorflow/tensorflow/examples/android/src/org/tensorflow/demo/tracking/MultiBoxTracker.java" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/res/drawable" />
@@ -1523,7 +1452,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525644967345" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525645873988" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -1571,7 +1500,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525644967345" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525645873988" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1754,7 +1683,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525644967346" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1525645873989" />
       </method>
     </configuration>
     <list size="1">
@@ -1850,7 +1779,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/LtLng.java" />
     <entry file="file://$PROJECT_DIR$/res/layout/list_text_item.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2182,17 +2110,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/login_or_create.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="99" column="35" lean-forward="false" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
@@ -2211,14 +2128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2946">
-          <caret line="213" column="75" lean-forward="false" selection-start-line="213" selection-start-column="75" selection-end-line="213" selection-end-column="75" />
           <folding />
         </state>
       </provider>
@@ -2295,6 +2204,33 @@
             <element signature="e#4136#4137#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="213" column="75" lean-forward="false" selection-start-line="213" selection-start-column="75" selection-end-line="213" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/LegacyCameraConnectionFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/login_or_create.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-2105">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>
