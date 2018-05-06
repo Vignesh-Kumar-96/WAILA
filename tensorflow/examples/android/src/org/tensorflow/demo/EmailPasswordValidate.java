@@ -6,10 +6,6 @@ package org.tensorflow.demo;
 
 import android.content.res.Resources;
 
-/**
- * Created by witchel on 11/6/16.
- */
-
 public class EmailPasswordValidate {
     // Locally check login or account creation credentials
     // Empty string means all is ok

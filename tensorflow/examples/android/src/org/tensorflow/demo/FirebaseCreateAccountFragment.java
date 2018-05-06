@@ -27,10 +27,6 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.UserProfileChangeRequest;
 
-/**
- * Created by witchel on 11/6/16.
- */
-
 public class FirebaseCreateAccountFragment extends Fragment {
     public interface FirebaseCreateAccountInterface {
         void firebaseLoginFinish();

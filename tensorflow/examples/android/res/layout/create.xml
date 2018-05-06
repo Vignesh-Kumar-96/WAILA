@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@color/white"
     android:orientation="vertical"
     android:fitsSystemWindows="true"
     android:layout_width="match_parent"
@@ -8,10 +7,12 @@
 
     <EditText
         android:id="@+id/username"
-        android:paddingTop="40dp"
+        android:paddingTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/prompt_email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Email Address"
         android:inputType="textEmailAddress"
         android:maxLines="1" />
 
@@ -19,6 +20,9 @@
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
         android:hint="@string/prompt_password"
         android:inputType="textPassword"
         android:maxLines="1" />
@@ -27,10 +31,13 @@
         android:id="@+id/passwordAgain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/prompt_password_again"
+        android:hint="Retype Password"
         android:imeActionId="@+id/login"
         android:imeActionLabel="@string/action_sign_in_short"
         android:imeOptions="actionUnspecified"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:inputType="textPassword"
         android:maxLines="1" />
 
@@ -40,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="50dp"
         android:paddingLeft="32dp"
         android:paddingRight="32dp"
         android:text="@string/create_account" />

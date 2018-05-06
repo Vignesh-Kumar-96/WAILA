@@ -47,6 +47,8 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
     private Bitmap bitmapimage;
     private Button database_button;
     private String title;
+    private View line;
+    private View line2;
     private static final int MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 99;
     String locationProvider;
     LocationManager locationManager;
@@ -82,6 +84,11 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
         bitmapView = (ImageView) findViewById(R.id.bitmap_view);
         database_button = (Button) findViewById(R.id.database_button);
         database_button.setVisibility(View.INVISIBLE);
+        line = (View) findViewById(R.id.line);
+        line2 = (View) findViewById(R.id.line2);
+        line.setVisibility(View.INVISIBLE);
+        line2.setVisibility(View.INVISIBLE);
+
 
 
 
@@ -94,12 +101,6 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
     // https://www.reddit.com/dev/api#GET_search
     protected void newSearch(String searchTerm) {
         Log.d(AppName, "Search for "+ searchTerm);
-        // XXX Check the search term, then build the URL request.
-        // see https://www.reddit.com/dev/api/
-        // Reddit search terms must be less than 512 characters
-        // You must use /r/aww
-        // include these parameters &sort=hot&limit=100
-        // Note: For testing, you can request a lower limit.
         String url = BASE_URL;
         if(searchTerm.toLowerCase().equals("keyboard"))
             searchTerm = "computer keyboard";
@@ -157,10 +158,8 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
         catch (MalformedURLException me){
             me.printStackTrace();
         }
-        // Call VolleyFetch when you are ready
     }
 
-    // XXX RedditJSON.IRedditJSON implies responsibilities
     public void fetchStart(){
         pb.setVisibility(View.VISIBLE);
     }
@@ -177,6 +176,8 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
         bitmapView.setImageBitmap(bitmapimage);
         database_button.setVisibility(View.VISIBLE);
         pb.setVisibility(View.GONE);
+        line.setVisibility(View.VISIBLE);
+        line2.setVisibility(View.VISIBLE);
 
     }
 
@@ -196,8 +197,7 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
                 Log.d("WIKI", "PRESSED HOME");
                 Intent i = new Intent(getApplicationContext(),DetectorActivity.class);
                 startActivity(i);
-                //super.onBackPressed();
-                //return true;
+
         }
         return super.onOptionsItemSelected(item);
     }
@@ -260,9 +260,6 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
     protected void onResume() {
         super.onResume();
     }
-
-
-
 
 
 

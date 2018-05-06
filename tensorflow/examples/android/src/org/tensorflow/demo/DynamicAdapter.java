@@ -23,6 +23,8 @@ import com.bumptech.glide.Glide;
 
 import java.io.ByteArrayOutputStream;
 import java.io.UnsupportedEncodingException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Base64;
 import java.util.List;
 
@@ -44,11 +46,13 @@ public class DynamicAdapter extends RecyclerView.Adapter<DynamicAdapter.DynamicV
         TextView text;
         ImageView image;
         View container;
+        TextView date;
 
         public DynamicViewHolder(View theView) {
             super(theView);
             text = (TextView) theView.findViewById(R.id.picTextRowText);
             image = (ImageView) theView.findViewById(R.id.picTextRowPic);
+            date = (TextView) theView.findViewById(R.id.picTextRowDate);
             theView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -70,7 +74,12 @@ public class DynamicAdapter extends RecyclerView.Adapter<DynamicAdapter.DynamicV
     @Override
     public void onBindViewHolder(DynamicViewHolder holder, int position) {
         PhotoObject rr = mData.get(position);
-        holder.text.setText(rr.title);
+        holder.text.setText(rr.title.toUpperCase());
+
+        DateFormat formatter = new SimpleDateFormat("MM-dd-yyyy HH:mm:ss");
+
+        String formatted_date = formatter.format(rr.date);
+        holder.date.setText(formatted_date.toUpperCase());
 
         byte[] decoded = android.util.Base64.decode(rr.getEncodedBytes(), android.util.Base64.DEFAULT);
         Bitmap image = BitmapFactory.decodeByteArray(decoded, 0, decoded.length);

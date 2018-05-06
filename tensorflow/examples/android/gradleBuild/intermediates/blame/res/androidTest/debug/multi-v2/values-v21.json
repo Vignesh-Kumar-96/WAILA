@@ -4,7 +4,7 @@
             "outputFile": "/home/vignesh/Documents/WAILA/tensorflow/examples/android/gradleBuild/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/home/vignesh/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2cc1a3fa8d18ab46c0e6b131288437ea/res/values-v21/values-v21.xml",
+                    "source": "/home/vignesh/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/883e4fd480016cb0d1c371ab67bc11cf/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5",
                         "startColumns": "4,4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/home/vignesh/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/74b20d3531801ba04f42b0f6c0bd5eaa/res/values-v21/values-v21.xml",
+                    "source": "/home/vignesh/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/43f2b5ab843343e258b1b3096a2d55a3/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",

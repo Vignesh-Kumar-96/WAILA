@@ -1,30 +1,42 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    android:layout_marginBottom="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <!-- Image for each ListItem row
-    We can refer to images in our drawable folder with
-    @drawable/dot for the image named dot.png -->
     <ImageView
         android:id="@+id/picTextRowPic"
-        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:adjustViewBounds="true"
-        android:layout_height="60dp"
+        android:layout_height="90dp"
         android:scaleType="centerCrop"
         android:layout_margin="2dp"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
+        app:layout_constraintStart_toStartOf="parent"
         />
 
     <TextView
         android:id="@+id/picTextRowText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
         android:padding="10dp"
-        />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/picTextRowPic"
+        android:layout_marginLeft="10dp"/>
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/picTextRowDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="10dp"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

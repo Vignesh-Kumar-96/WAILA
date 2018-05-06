@@ -121,17 +121,20 @@
     <orderEntry type="library" name="com.google.android.gms:play-services-base-9.6.0" level="project" />
     <orderEntry type="library" name="com.android.support:animated-vector-drawable-27.0.2" level="project" />
     <orderEntry type="library" name="com.google.code.gson:gson:2.8.0@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-media-compat-26.1.0" level="project" />
     <orderEntry type="library" name="com.android.support:appcompat-v7-27.0.2" level="project" />
     <orderEntry type="library" name="com.github.bumptech.glide:volley-integration-1.4.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-annotations:27.0.2@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:recyclerview-v7-26.1.0" level="project" />
+    <orderEntry type="library" name="com.android.support:design-27.0.2" level="project" />
+    <orderEntry type="library" name="com.android.support:transition-27.0.2" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-basement-9.6.0" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-database-connection-9.6.0" level="project" />
+    <orderEntry type="library" name="com.android.support:recyclerview-v7-27.0.2" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-core-9.6.0" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-analytics-impl-9.6.0" level="project" />
     <orderEntry type="library" name="org.tensorflow:tensorflow-android-1.8.0" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-storage-9.6.0" level="project" />
+    <orderEntry type="library" name="com.android.support.constraint:constraint-layout-solver:1.0.2@jar" level="project" />
+    <orderEntry type="library" name="com.android.support.constraint:constraint-layout-1.0.2" level="project" />
     <orderEntry type="library" name="android.arch.lifecycle:runtime-1.0.3" level="project" />
     <orderEntry type="library" name="com.android.support:support-vector-drawable-27.0.2" level="project" />
     <orderEntry type="library" name="com.mcxiaoke.volley:library:1.0.8@jar" level="project" />
@@ -147,14 +150,13 @@
     <orderEntry type="library" name="com.google.firebase:firebase-database-9.6.0" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-common-9.6.0" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-storage-common-9.6.0" level="project" />
-    <orderEntry type="library" name="com.android.support:support-v4-26.1.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-utils-27.0.2" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-analytics-9.6.0" level="project" />
     <orderEntry type="library" name="com.android.support:support-fragment-27.0.2" level="project" />
-    <orderEntry type="library" name="com.android.support:design-26.1.0" level="project" />
-    <orderEntry type="library" name="com.android.support:transition-26.1.0" level="project" />
+    <orderEntry type="library" name="com.android.support:support-media-compat-27.0.2" level="project" />
     <orderEntry type="library" name="com.google.android.gms:play-services-maps-9.6.0" level="project" />
     <orderEntry type="library" name="com.github.bumptech.glide:glide:3.7.0@jar" level="project" />
+    <orderEntry type="library" name="com.android.support:support-v4-27.0.2" level="project" />
     <orderEntry type="library" name="com.android.support:multidex-1.0.3" level="project" />
   </component>
 </module>

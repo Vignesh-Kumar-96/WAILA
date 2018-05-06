@@ -68,15 +68,6 @@ public class PhotoManager {
         userName = _userName;
     }
 
-    public byte[] convertResourceIDToBytes(int resourceID, int compression) {
-        //compression should be between 0 and 100 (inclusive)
-        Drawable drawable = ContextCompat.getDrawable(this.parent.getApplicationContext(), resourceID);
-        Bitmap bitmap = ((BitmapDrawable) drawable).getBitmap();
-        ByteArrayOutputStream stream = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.JPEG, compression, stream);
-        byte[] bitmapdata = stream.toByteArray();
-        return bitmapdata;
-    }
 
     public byte[] convertBitmapToBytes(Bitmap bitmap, int compression) {
         ByteArrayOutputStream stream = new ByteArrayOutputStream();

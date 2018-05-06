@@ -120,9 +120,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCUGTJIcRF_VutMrw1JX5XjdLEZIFN_fdg" />
         <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
-        <meta-data
             android:name="com.bumptech.glide.integration.volley.VolleyGlideModule"
             android:value="GlideModule" />
 

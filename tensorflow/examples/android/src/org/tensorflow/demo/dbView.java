@@ -7,6 +7,7 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ProgressBar;
@@ -25,6 +26,7 @@ public class dbView extends AppCompatActivity implements PhotoManager.getDataLis
     private PhotoManager photoManager = PhotoManager.getInstance();
     private RecyclerView recyclerView;
     private ProgressBar pb;
+    private RecyclerView.Adapter adapter;
 
 
     @Override
@@ -52,7 +54,7 @@ public class dbView extends AppCompatActivity implements PhotoManager.getDataLis
             return;
         }
 
-        RecyclerView.Adapter adapter = new DynamicAdapter(photoObjects, getApplicationContext());
+        adapter = new DynamicAdapter(photoObjects, getApplicationContext());
         pb.setVisibility(View.GONE);
 
         recyclerView.setAdapter(adapter);
@@ -65,7 +67,27 @@ public class dbView extends AppCompatActivity implements PhotoManager.getDataLis
             case android.R.id.home:
                 super.onBackPressed();
                 return true;
+            case R.id.delete:
+                deleteAllRows();
+                ArrayList<PhotoObject> empty = new ArrayList<PhotoObject>();
+                adapter = new DynamicAdapter(empty, getApplicationContext());
+                recyclerView.setAdapter(adapter);
+                return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.db_menu, menu);
+        return true;
+    }
+
+
+    public void deleteAllRows() {
+        if (photoManager.userDB != null) {
+            photoManager.userDB.child("photos").setValue(null);
+        }
     }
 }

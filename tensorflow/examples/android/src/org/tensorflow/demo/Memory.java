@@ -62,14 +62,18 @@ public class Memory extends AppCompatActivity implements OnMapReadyCallback{
             date = callingBundle.getLong("date");
         }
 
-        DateFormat formatter = new SimpleDateFormat("MM-dd-yyyy HH:mm:ss");
+        DateFormat formatter1 = new SimpleDateFormat("EEE, d MMM yyyy");
+        DateFormat formatter2 = new SimpleDateFormat("HH:mm:ss");
 
-        String formatted_date = formatter.format(date);
+        String formatted_date = formatter1.format(date);
+        String formatted_time = formatter2.format(date);
         byte[] decoded = android.util.Base64.decode(byteArray, android.util.Base64.DEFAULT);
         Bitmap image = BitmapFactory.decodeByteArray(decoded, 0, decoded.length);
-        TextView tV = (TextView) findViewById(R.id.textPost);
-        tV.setText("You were looking at this " + title + " on " + formatted_date.substring(0,10) +" at " +
-                            formatted_date.substring(11,19));
+        TextView object = (TextView) findViewById(R.id.text_object);
+        TextView date = (TextView) findViewById(R.id.text_date);
+        object.setText("You were looking at this " + title);
+        date.setText("on " + formatted_date +" at " +
+                formatted_time);
         ImageView iV = (ImageView) findViewById(R.id.picPost);
         iV.setImageBitmap(image);
 
