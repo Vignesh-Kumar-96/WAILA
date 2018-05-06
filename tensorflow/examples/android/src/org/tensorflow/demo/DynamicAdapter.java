@@ -21,6 +21,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
+import java.io.ByteArrayOutputStream;
 import java.io.UnsupportedEncodingException;
 import java.util.Base64;
 import java.util.List;
@@ -48,6 +49,12 @@ public class DynamicAdapter extends RecyclerView.Adapter<DynamicAdapter.DynamicV
             super(theView);
             text = (TextView) theView.findViewById(R.id.picTextRowText);
             image = (ImageView) theView.findViewById(R.id.picTextRowPic);
+            theView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    action(getAdapterPosition());
+                }
+            });
         }
     }
 
@@ -83,19 +90,20 @@ public class DynamicAdapter extends RecyclerView.Adapter<DynamicAdapter.DynamicV
         notifyItemRemoved(position);
     }
 
-    /*
+
     public void action(int position){
-        Intent i = new Intent(this.context, OnePost.class);
+        Intent i = new Intent(this.context, Memory.class);
         Bundle myExtras = new Bundle();
         PhotoObject rr = mData.get(position);
-        String text = rr.title;
-        String url = rr.imageURL.toString();
-        myExtras.putString("titleString", text);
-        myExtras.putString("urlString", url);
+        myExtras.putString("title", rr.title);
+        myExtras.putString("bitmap", rr.encodedBytes);
+        myExtras.putDouble("latitude", rr.getLatitude());
+        myExtras.putDouble("longitude",rr.getLongitude());
+        myExtras.putLong("date", rr.date);
         i.putExtras(myExtras);
         context.startActivity(i);
     }
-    */
+
 
     @Override
     public int getItemCount() {

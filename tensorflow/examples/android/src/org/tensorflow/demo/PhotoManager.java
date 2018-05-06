@@ -13,6 +13,8 @@ import android.util.Base64;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -35,6 +37,7 @@ public class PhotoManager {
     protected String baseDir;
     protected String userName;
     protected DatabaseReference userDB;
+    private FirebaseUser currentUser;
     private ArrayList<PhotoObject> photoObjectList;
 
 
@@ -57,6 +60,7 @@ public class PhotoManager {
             _userName = _userName.replaceAll("\\.", "@"); // . illegal in Firebase key
             if (_userName != userName || userDB == null) {
                 userDB = FirebaseDatabase.getInstance().getReference(_userName);
+                currentUser = FirebaseAuth.getInstance().getCurrentUser();
             }
         } else {
             userDB = null;

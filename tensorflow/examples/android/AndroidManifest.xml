@@ -85,6 +85,24 @@
                 android:value=".WikiActivity" />
         </activity>
 
+        <activity
+            android:name=".Memory"
+            android:label="WAILA"
+            android:theme="@style/Base.Theme.AppCompat.Light"
+            android:parentActivityName="org.tensorflow.demo.dbView" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dbView" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCUGTJIcRF_VutMrw1JX5XjdLEZIFN_fdg"/>
+
+
+
+
     </application>
 
 </manifest>

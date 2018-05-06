@@ -45,6 +45,7 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
     private ImageView bitmapView;
     private PhotoManager photoManager;
     private Bitmap bitmapimage;
+    private Button database_button;
     private String title;
     private static final int MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 99;
     String locationProvider;
@@ -79,6 +80,9 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
 
         wikiText.setMovementMethod(new ScrollingMovementMethod());
         bitmapView = (ImageView) findViewById(R.id.bitmap_view);
+        database_button = (Button) findViewById(R.id.database_button);
+        database_button.setVisibility(View.INVISIBLE);
+
 
 
 
@@ -118,7 +122,7 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
                 public void onClick(View v) {
                     get_location();
                     photoManager = PhotoManager.getInstance();
-                    byte[] photo_bytes = photoManager.convertBitmapToBytes(bitmapimage, 50);
+                    byte[] photo_bytes = photoManager.convertBitmapToBytes(bitmapimage, 100);
                     double latitude;
                     double longitude;
                     if (lastKnownLocation != null){
@@ -134,12 +138,18 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
                     if(photoManager.uploadPhoto(title, photo_bytes, latitude, longitude)){
                         save_button.setText("Memory recorded");
                         save_button.setClickable(false);
-                        Intent todbView = new Intent(getApplicationContext(), dbView.class);
-                        startActivity(todbView);
-
                     }
 
 
+                }
+            });
+
+
+            database_button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent todbView = new Intent(getApplicationContext(), dbView.class);
+                    startActivity(todbView);
                 }
             });
             fetchStart();
@@ -165,6 +175,7 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
         searchText.setVisibility(View.VISIBLE);
         save_button.setVisibility(View.VISIBLE);
         bitmapView.setImageBitmap(bitmapimage);
+        database_button.setVisibility(View.VISIBLE);
         pb.setVisibility(View.GONE);
 
     }
@@ -243,6 +254,11 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
 
     public static String locationStringFromLocation(final Location location) {
         return Location.convert(location.getLatitude(), Location.FORMAT_DEGREES) + " " + Location.convert(location.getLongitude(), Location.FORMAT_DEGREES);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
     }
 
 

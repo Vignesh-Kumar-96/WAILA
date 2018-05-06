@@ -6,6 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -20,13 +24,16 @@ public class dbView extends AppCompatActivity implements PhotoManager.getDataLis
     private ArrayList<PhotoObject> photoObjects;
     private PhotoManager photoManager = PhotoManager.getInstance();
     private RecyclerView recyclerView;
+    private ProgressBar pb;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         photoManager.getUserData(this);
         setContentView(R.layout.db_results);
-
+        pb = (ProgressBar) findViewById(R.id.progressBar2);
+        pb.setVisibility(View.VISIBLE);
         recyclerView = (RecyclerView) findViewById(R.id.searchResults);
 
         rv_layout_mgr = new LinearLayoutManager(getApplicationContext());
@@ -41,11 +48,24 @@ public class dbView extends AppCompatActivity implements PhotoManager.getDataLis
         //Log.d("PhotoFragment", "got some photos for name query " + name);
         if (photoObjects == null || photoObjects.size() == 0) {
             Toast.makeText(this, "No memories :(", Toast.LENGTH_LONG);
+            pb.setVisibility(View.GONE);
             return;
         }
 
         RecyclerView.Adapter adapter = new DynamicAdapter(photoObjects, getApplicationContext());
+        pb.setVisibility(View.GONE);
+
         recyclerView.setAdapter(adapter);
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                super.onBackPressed();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

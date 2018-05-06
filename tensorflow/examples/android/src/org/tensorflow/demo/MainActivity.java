@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity
                     if (userName == null) {
                         userName = ANON_USER; // Anonymous signin returns null
                     }
+                    photoManager.updateCurrentUserName(userName);
                     login_text.setText("Logged in as " + userName);
                     main_button.setText("LOG OUT");
                 } else {

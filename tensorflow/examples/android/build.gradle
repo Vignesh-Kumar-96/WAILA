@@ -87,6 +87,7 @@ android {
 
     if (nativeBuildSystem == 'cmake') {
         defaultConfig {
+            multiDexEnabled true
             applicationId = 'org.tensorflow.demo'
             minSdkVersion 23
             targetSdkVersion 27
@@ -208,6 +209,8 @@ dependencies {
     compile 'com.google.firebase:firebase-auth:9.6.0'
     compile 'com.google.firebase:firebase-storage:9.6.0'
     compile 'com.google.firebase:firebase-database:9.6.0'
+    implementation 'com.google.android.gms:play-services-maps:9.6.0'
+    implementation 'com.android.support:multidex:1.0.3'
 }
 
 apply plugin: 'com.google.gms.google-services'

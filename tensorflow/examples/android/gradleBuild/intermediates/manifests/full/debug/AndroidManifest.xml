@@ -36,6 +36,11 @@
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
@@ -99,7 +104,21 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".WikiActivity" />
         </activity>
+        <activity
+            android:name="org.tensorflow.demo.Memory"
+            android:label="WAILA"
+            android:parentActivityName="org.tensorflow.demo.dbView"
+            android:theme="@style/Base.Theme.AppCompat.Light" >
 
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".dbView" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCUGTJIcRF_VutMrw1JX5XjdLEZIFN_fdg" />
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />

@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-90:12
-INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-90:12
+ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-108:12
+INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-108:12
 MERGED from [org.tensorflow:tensorflow-android:1.8.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/40a9a8b047a7e3fbda71c3e4f598152f/AndroidManifest.xml:2:1-8:12
 MERGED from [com.android.support:design:26.1.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2cc1a3fa8d18ab46c0e6b131288437ea/AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.firebase:firebase-auth:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.6.0.aar/ccc01da2270bb4f6ee9dba55a36a7408/AndroidManifest.xml:16:1-21:12
@@ -9,6 +9,8 @@ MERGED from [com.google.firebase:firebase-storage:9.6.0] /home/vignesh/.gradle/c
 MERGED from [com.google.firebase:firebase-database:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-database-9.6.0.aar/66c6292814daa371ce8dd003e8916c3b/AndroidManifest.xml:2:1-4:12
 MERGED from [com.android.support:appcompat-v7:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a5bf15c87030f11a96e3782db1d42542/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:16:1-25:12
+MERGED from [com.android.support:multidex:1.0.3] /home/vignesh/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/1785be6d115070c9c26456334b162bad/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-core:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/a0e38a274d605a8867ef39d44bdc85f6/AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.support:transition:26.1.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5b1973b6f68a83b53ded7ba116b0a01e/AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.firebase:firebase-auth-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.6.0.aar/2befe7140923404529ff129aa3d9de74/AndroidManifest.xml:16:1-21:12
@@ -32,7 +34,7 @@ MERGED from [com.android.support:support-core-utils:27.0.2] /home/vignesh/.gradl
 MERGED from [com.android.support:support-core-ui:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/33c69dc9eed498c29096bb7e19406f6a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7b5d2b02d30a61573982d12d84f155a8/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/vignesh/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3616deb6b94d7269564610e7322d6f19/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-90:12
+INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-108:12
 	package
 		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:19:5-34
 		INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml
@@ -61,6 +63,8 @@ ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidMani
 		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:25:22-68
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:19:5-78
 MERGED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:21:5-78
 MERGED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:21:5-78
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:21:5-78
@@ -71,6 +75,8 @@ MERGED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/cache
 		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:26:22-76
 uses-permission#android.permission.INTERNET
 ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:20:5-66
@@ -103,6 +109,10 @@ MERGED from [com.android.support:appcompat-v7:27.0.2] /home/vignesh/.gradle/cach
 MERGED from [com.android.support:appcompat-v7:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a5bf15c87030f11a96e3782db1d42542/AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:23:5-42
+MERGED from [com.android.support:multidex:1.0.3] /home/vignesh/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/1785be6d115070c9c26456334b162bad/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] /home/vignesh/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/1785be6d115070c9c26456334b162bad/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-core:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/a0e38a274d605a8867ef39d44bdc85f6/AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-core:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/a0e38a274d605a8867ef39d44bdc85f6/AndroidManifest.xml:4:5-42
 MERGED from [com.android.support:transition:26.1.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5b1973b6f68a83b53ded7ba116b0a01e/AndroidManifest.xml:20:5-44
@@ -162,7 +172,7 @@ INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidM
 		INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml
 		INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml
 application
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:35:5-88:19
+ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:35:5-106:19
 MERGED from [org.tensorflow:tensorflow-android:1.8.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/40a9a8b047a7e3fbda71c3e4f598152f/AndroidManifest.xml:5:5-6:19
 MERGED from [org.tensorflow:tensorflow-android:1.8.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/40a9a8b047a7e3fbda71c3e4f598152f/AndroidManifest.xml:5:5-6:19
 MERGED from [com.android.support:design:26.1.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2cc1a3fa8d18ab46c0e6b131288437ea/AndroidManifest.xml:25:5-29:19
@@ -171,6 +181,8 @@ MERGED from [com.google.firebase:firebase-auth:9.6.0] /home/vignesh/.gradle/cach
 MERGED from [com.google.firebase:firebase-auth:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.6.0.aar/ccc01da2270bb4f6ee9dba55a36a7408/AndroidManifest.xml:19:5-20:19
 MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:24:5-19
 MERGED from [com.google.firebase:firebase-core:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/a0e38a274d605a8867ef39d44bdc85f6/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-core:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/a0e38a274d605a8867ef39d44bdc85f6/AndroidManifest.xml:5:5-20
 MERGED from [com.android.support:transition:26.1.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5b1973b6f68a83b53ded7ba116b0a01e/AndroidManifest.xml:22:5-26:19
@@ -265,10 +277,26 @@ ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidMani
 		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:80:13-62
 	android:name
 		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:78:13-35
+activity#org.tensorflow.demo.Memory
+ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:88:9-97:20
+	android:parentActivityName
+		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:92:13-68
+	android:label
+		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:90:13-34
+	android:theme
+		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:91:13-62
+	android:name
+		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:89:13-35
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:99:9-101:70
+	android:value
+		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:101:13-68
+	android:name
+		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:100:13-58
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-90:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+IMPLIED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-108:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-90:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-108:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2cc1a3fa8d18ab46c0e6b131288437ea/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:transition:26.1.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5b1973b6f68a83b53ded7ba116b0a01e/AndroidManifest.xml:23:9-25:38
@@ -289,6 +317,12 @@ ADDED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.g
 		ADDED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:14:13-40
 	android:name
 		ADDED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:13:13-83
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:21:52-75
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/66783b889d7a818b328ee1afd6e7c7ca/AndroidManifest.xml:19:9-172
 	android:exported
