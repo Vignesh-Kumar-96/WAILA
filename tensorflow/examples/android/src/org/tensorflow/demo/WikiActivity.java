@@ -118,7 +118,7 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
                     get_location();
                     photoManager = PhotoManager.getInstance();
                     byte[] photo_bytes = photoManager.convertBitmapToBytes(bitmapimage, 100);
-                    if(photoManager.uploadPhoto(title, photo_bytes)){
+                    if(photoManager.uploadPhoto(title, photo_bytes, lastKnownLocation)){
                         save_button.setText("Memory recorded");
                         save_button.setClickable(false);
                     }

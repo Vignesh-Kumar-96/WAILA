@@ -5,6 +5,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.location.Location;
 import android.location.LocationManager;
 import android.support.v4.content.ContextCompat;
 import android.util.Base64;
@@ -68,7 +69,7 @@ public class PhotoManager {
         return bitmapdata;
     }
 
-    public Boolean uploadPhoto(String title, byte[] data) {
+    public Boolean uploadPhoto(String title, byte[] data, Location location) {
 
         if (data == null) return false;
         Log.d("PhotoManager", "uploading photo titled " + title + " user: " + userName);
@@ -77,6 +78,7 @@ public class PhotoManager {
             // XXX Write me: store photo in firebase (one line)
             PhotoObject p = new PhotoObject();
             p.title = title;
+            p.location = location;
             p.date= System.currentTimeMillis();
             String encodedBytes = Base64.encodeToString(data, Base64.DEFAULT);
             p.encodedBytes = encodedBytes;
