@@ -31,6 +31,7 @@ import com.bumptech.glide.Glide;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 
 public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSON {
     static public String AppName = "Waila";
@@ -117,10 +118,25 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
                 public void onClick(View v) {
                     get_location();
                     photoManager = PhotoManager.getInstance();
-                    byte[] photo_bytes = photoManager.convertBitmapToBytes(bitmapimage, 100);
-                    if(photoManager.uploadPhoto(title, photo_bytes, lastKnownLocation)){
+                    byte[] photo_bytes = photoManager.convertBitmapToBytes(bitmapimage, 50);
+                    double latitude;
+                    double longitude;
+                    if (lastKnownLocation != null){
+                        latitude = lastKnownLocation.getLatitude();
+                        longitude = lastKnownLocation.getLongitude();
+                    }
+
+                    else{
+                        latitude = 30.0;
+                        longitude = -97.7;
+                    }
+
+                    if(photoManager.uploadPhoto(title, photo_bytes, latitude, longitude)){
                         save_button.setText("Memory recorded");
                         save_button.setClickable(false);
+                        Intent todbView = new Intent(getApplicationContext(), dbView.class);
+                        startActivity(todbView);
+
                     }
 
 
@@ -228,6 +244,8 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
     public static String locationStringFromLocation(final Location location) {
         return Location.convert(location.getLatitude(), Location.FORMAT_DEGREES) + " " + Location.convert(location.getLongitude(), Location.FORMAT_DEGREES);
     }
+
+
 
 
 

@@ -79,7 +79,7 @@
         </activity>
         <activity
             android:name="org.tensorflow.demo.WikiActivity"
-            android:label="Wiki Activity"
+            android:label="WAILA"
             android:parentActivityName="org.tensorflow.demo.DetectorActivity"
             android:theme="@style/Base.Theme.AppCompat.Light" >
 
@@ -87,6 +87,17 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".DetectorActivity" />
+        </activity>
+        <activity
+            android:name="org.tensorflow.demo.dbView"
+            android:label="WAILA"
+            android:parentActivityName="org.tensorflow.demo.WikiActivity"
+            android:theme="@style/Base.Theme.AppCompat.Light" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".WikiActivity" />
         </activity>
 
         <meta-data

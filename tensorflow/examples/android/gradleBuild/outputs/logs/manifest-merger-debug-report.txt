@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-79:12
-INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-79:12
+ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-90:12
+INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-90:12
 MERGED from [org.tensorflow:tensorflow-android:1.8.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/40a9a8b047a7e3fbda71c3e4f598152f/AndroidManifest.xml:2:1-8:12
 MERGED from [com.android.support:design:26.1.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2cc1a3fa8d18ab46c0e6b131288437ea/AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.firebase:firebase-auth:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.6.0.aar/ccc01da2270bb4f6ee9dba55a36a7408/AndroidManifest.xml:16:1-21:12
@@ -32,7 +32,7 @@ MERGED from [com.android.support:support-core-utils:27.0.2] /home/vignesh/.gradl
 MERGED from [com.android.support:support-core-ui:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/33c69dc9eed498c29096bb7e19406f6a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7b5d2b02d30a61573982d12d84f155a8/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/vignesh/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3616deb6b94d7269564610e7322d6f19/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-79:12
+INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-90:12
 	package
 		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:19:5-34
 		INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml
@@ -162,7 +162,7 @@ INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidM
 		INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml
 		INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml
 application
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:35:5-77:19
+ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:35:5-88:19
 MERGED from [org.tensorflow:tensorflow-android:1.8.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/40a9a8b047a7e3fbda71c3e4f598152f/AndroidManifest.xml:5:5-6:19
 MERGED from [org.tensorflow:tensorflow-android:1.8.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/40a9a8b047a7e3fbda71c3e4f598152f/AndroidManifest.xml:5:5-6:19
 MERGED from [com.android.support:design:26.1.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2cc1a3fa8d18ab46c0e6b131288437ea/AndroidManifest.xml:25:5-29:19
@@ -250,15 +250,25 @@ ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidMani
 	android:parentActivityName
 		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:70:13-78
 	android:label
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:68:13-42
+		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:68:13-34
 	android:theme
 		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:69:13-62
 	android:name
 		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:67:13-41
+activity#org.tensorflow.demo.dbView
+ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:77:9-86:20
+	android:parentActivityName
+		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:81:13-74
+	android:label
+		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:79:13-34
+	android:theme
+		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:80:13-62
+	android:name
+		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:78:13-35
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-79:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+IMPLIED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-90:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-79:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-90:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2cc1a3fa8d18ab46c0e6b131288437ea/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:transition:26.1.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/5b1973b6f68a83b53ded7ba116b0a01e/AndroidManifest.xml:23:9-25:38
