@@ -1,442 +1,436 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-108:12
-INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-108:12
-MERGED from [org.tensorflow:tensorflow-android:1.8.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/40a9a8b047a7e3fbda71c3e4f598152f/AndroidManifest.xml:2:1-8:12
-MERGED from [com.android.support:design:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/883e4fd480016cb0d1c371ab67bc11cf/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-auth:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.6.0.aar/ccc01da2270bb4f6ee9dba55a36a7408/AndroidManifest.xml:16:1-21:12
-MERGED from [com.google.firebase:firebase-storage:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.6.0.aar/bfb35a8458d8e9609d40f9f5f473f4aa/AndroidManifest.xml:2:1-4:12
-MERGED from [com.google.firebase:firebase-database:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-database-9.6.0.aar/66c6292814daa371ce8dd003e8916c3b/AndroidManifest.xml:2:1-4:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a5bf15c87030f11a96e3782db1d42542/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:16:1-25:12
-MERGED from [com.android.support:multidex:1.0.3] /home/vignesh/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/1785be6d115070c9c26456334b162bad/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/befac4f3741bacc8f4975dc759559b2b/AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-core:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/a0e38a274d605a8867ef39d44bdc85f6/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-auth-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.6.0.aar/2befe7140923404529ff129aa3d9de74/AndroidManifest.xml:16:1-21:12
-MERGED from [com.google.firebase:firebase-auth-module:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.6.0.aar/8ee255f312b0f5de10161ec35bcbe35c/AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-base:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/66783b889d7a818b328ee1afd6e7c7ca/AndroidManifest.xml:16:1-21:12
-MERGED from [com.google.firebase:firebase-database-connection:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.6.0.aar/8ea9149c33bc2b0fc9f71774a9c24afd/AndroidManifest.xml:2:1-4:12
-MERGED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:16:1-34:12
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:16:1-29:12
-MERGED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:16:1-51:12
-MERGED from [com.google.firebase:firebase-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/34eb83b8ac33470e3f4ae6d74bb39757/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.0.aar/4bff1437d622fd7e6069e307b0d91bd0/AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.firebase:firebase-storage-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.6.0.aar/b25e5cc68c32c06173e933a9e7298c7a/AndroidManifest.xml:2:1-4:12
-MERGED from [com.google.android.gms:play-services-basement:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/856b6352d0c722e8fbc8d9e44e382fd2/AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:support-v4:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/bafd93667cbee3ddbd4630d84d930d9c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/7f1552e370223aba1e0958d583c703d1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/26195a04222e34ae4790772aefd80b7d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/683dc61b823cdd5dc0cb11bf2d2cb749/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/69f7319d09bb13dd14cfedf2e3f8c79b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/2f7ae539c1c2af2ddbf4e021332af200/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/ad785a0372e3f6200bda3396bbaa9e64/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/33c69dc9eed498c29096bb7e19406f6a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/43f2b5ab843343e258b1b3096a2d55a3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7b5d2b02d30a61573982d12d84f155a8/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/vignesh/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3616deb6b94d7269564610e7322d6f19/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-108:12
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:18:1-102:12
+INJECTED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:18:1-102:12
+MERGED from [org.tensorflow:tensorflow-android:1.8.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.8.0.aar\c2dcb821e6e9a73859323cece2ba4c4f\AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\d15a1845ea5d5eb2fcf12679f69d1a2e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-auth-9.6.0.aar\4289ed8e93ff00767ed4a512888ca275\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-storage:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-storage-9.6.0.aar\b1849bcd1ba4075987f191a3cc18378e\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-database-9.6.0.aar\4e73e7a0764a111f37024580e81fe3b1\AndroidManifest.xml:2:1-4:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\eb58e42a57ab295f446260fafc4820a0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\volley-integration-1.4.0.aar\5e50cd7bd729a70f433be0b4e783a092\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.6.0.aar\7237bec897cbf4f5197be82e9651d209\AndroidManifest.xml:16:1-25:12
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\d957c9e4b330f1b152956cac94857a49\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d471b4ff1802f0b5c16d5f67b33b951b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-core-9.6.0.aar\bf415264dd36eeca5eacfc483a110528\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-auth-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-auth-common-9.6.0.aar\906dc235ef905900396c13cfc1759000\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-auth-module:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-auth-module-9.6.0.aar\5844b8bed467534ad8820064e412e18c\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-base-9.6.0.aar\3b00b5353af19481a0bb48039106f12b\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-database-connection:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-9.6.0.aar\c9e94ccdb68f18a5891d1e62e67375f0\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:16:1-51:12
+MERGED from [com.google.firebase:firebase-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-common-9.6.0.aar\d68b4820039f2493780fad6e23819042\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.6.0.aar\f14805d9ebf80f01052d3f409dd729a3\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-storage-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-9.6.0.aar\74df1712e146f1b49ed57f3dbd511935\AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.6.0.aar\b641198281d2763ca882c1f5a39e7647\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\617f32e05fc63f89cc92a7e61dd30b49\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\d9c59272268e1958ab8919188384078a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\a4e4478f61d33065818878845fa65e0a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\2b627b6fb0945389833515ee1cf872a9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\4bf5c18304ee0cdc15c64ed0453a53dd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\83d4dfb2b78ad9b196b69f98cf9eed6b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\cf0e7410e97fdb7ff6464b19ef7ef343\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\1e69493d792f9f7fc765277b70e9cfe5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\b8ea7d214b71b5fdf00c36af790cda2e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\4d06988a7557e7683dc3cba6e16567dc\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\6076a4829adbc0511b6c80d95dec6a7b\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:18:1-102:12
 	package
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:19:5-34
-		INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml
-		INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:19:5-34
+		INJECTED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml
+		INJECTED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:11-69
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:18:11-69
 uses-permission#android.permission.CAMERA
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:21:5-65
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:21:5-65
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:21:22-62
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:21:22-62
 uses-feature#android.hardware.camera
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:22:5-60
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:22:5-60
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:22:19-57
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:22:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:23:5-70
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:23:5-70
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:23:19-67
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:23:19-67
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:24:5-80
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:24:5-80
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:24:22-78
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:24:22-78
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:25:5-71
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:25:5-71
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:25:22-68
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:25:22-68
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:26:5-79
-MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:19:5-78
-MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:19:5-78
-MERGED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:19:5-78
-MERGED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:19:5-78
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.6.0.aar\7237bec897cbf4f5197be82e9651d209\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.6.0.aar\7237bec897cbf4f5197be82e9651d209\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:26:22-76
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:26:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:27:5-67
-MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:20:5-66
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.6.0.aar\7237bec897cbf4f5197be82e9651d209\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.6.0.aar\7237bec897cbf4f5197be82e9651d209\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:27:22-64
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:27:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:28:5-79
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:28:5-79
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:28:22-76
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:28:22-76
 uses-feature#android.hardware.location.gps
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:29:5-66
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:29:5-66
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:29:19-63
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:29:19-63
 uses-sdk
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:31:5-33:41
-INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:31:5-33:41
-INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:31:5-33:41
-MERGED from [com.android.support:design:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/883e4fd480016cb0d1c371ab67bc11cf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/883e4fd480016cb0d1c371ab67bc11cf/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.6.0.aar/ccc01da2270bb4f6ee9dba55a36a7408/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-auth:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.6.0.aar/ccc01da2270bb4f6ee9dba55a36a7408/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-storage:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.6.0.aar/bfb35a8458d8e9609d40f9f5f473f4aa/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-storage:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.6.0.aar/bfb35a8458d8e9609d40f9f5f473f4aa/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-database-9.6.0.aar/66c6292814daa371ce8dd003e8916c3b/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-database-9.6.0.aar/66c6292814daa371ce8dd003e8916c3b/AndroidManifest.xml:3:5-42
-MERGED from [com.android.support:appcompat-v7:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a5bf15c87030f11a96e3782db1d42542/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a5bf15c87030f11a96e3782db1d42542/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:23:5-42
-MERGED from [com.android.support:multidex:1.0.3] /home/vignesh/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/1785be6d115070c9c26456334b162bad/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.3] /home/vignesh/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/1785be6d115070c9c26456334b162bad/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/befac4f3741bacc8f4975dc759559b2b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/befac4f3741bacc8f4975dc759559b2b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-core:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/a0e38a274d605a8867ef39d44bdc85f6/AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-core:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/a0e38a274d605a8867ef39d44bdc85f6/AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-auth-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.6.0.aar/2befe7140923404529ff129aa3d9de74/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-auth-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.6.0.aar/2befe7140923404529ff129aa3d9de74/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-auth-module:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.6.0.aar/8ee255f312b0f5de10161ec35bcbe35c/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-auth-module:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.6.0.aar/8ee255f312b0f5de10161ec35bcbe35c/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-base:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/66783b889d7a818b328ee1afd6e7c7ca/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-base:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/66783b889d7a818b328ee1afd6e7c7ca/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-database-connection:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.6.0.aar/8ea9149c33bc2b0fc9f71774a9c24afd/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database-connection:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.6.0.aar/8ea9149c33bc2b0fc9f71774a9c24afd/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/34eb83b8ac33470e3f4ae6d74bb39757/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/34eb83b8ac33470e3f4ae6d74bb39757/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.0.aar/4bff1437d622fd7e6069e307b0d91bd0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.0.aar/4bff1437d622fd7e6069e307b0d91bd0/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-storage-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.6.0.aar/b25e5cc68c32c06173e933a9e7298c7a/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-storage-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.6.0.aar/b25e5cc68c32c06173e933a9e7298c7a/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/856b6352d0c722e8fbc8d9e44e382fd2/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/856b6352d0c722e8fbc8d9e44e382fd2/AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:support-v4:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/bafd93667cbee3ddbd4630d84d930d9c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/bafd93667cbee3ddbd4630d84d930d9c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/7f1552e370223aba1e0958d583c703d1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/7f1552e370223aba1e0958d583c703d1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/26195a04222e34ae4790772aefd80b7d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/26195a04222e34ae4790772aefd80b7d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/683dc61b823cdd5dc0cb11bf2d2cb749/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/683dc61b823cdd5dc0cb11bf2d2cb749/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/69f7319d09bb13dd14cfedf2e3f8c79b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/69f7319d09bb13dd14cfedf2e3f8c79b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/2f7ae539c1c2af2ddbf4e021332af200/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/2f7ae539c1c2af2ddbf4e021332af200/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/ad785a0372e3f6200bda3396bbaa9e64/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/ad785a0372e3f6200bda3396bbaa9e64/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/33c69dc9eed498c29096bb7e19406f6a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/33c69dc9eed498c29096bb7e19406f6a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/43f2b5ab843343e258b1b3096a2d55a3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/43f2b5ab843343e258b1b3096a2d55a3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7b5d2b02d30a61573982d12d84f155a8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7b5d2b02d30a61573982d12d84f155a8/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/vignesh/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3616deb6b94d7269564610e7322d6f19/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/vignesh/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/3616deb6b94d7269564610e7322d6f19/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:31:5-33:41
-INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:31:5-33:41
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:31:5-33:41
+INJECTED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:31:5-33:41
+INJECTED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:31:5-33:41
+MERGED from [com.android.support:design:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\d15a1845ea5d5eb2fcf12679f69d1a2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\d15a1845ea5d5eb2fcf12679f69d1a2e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-auth-9.6.0.aar\4289ed8e93ff00767ed4a512888ca275\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-auth-9.6.0.aar\4289ed8e93ff00767ed4a512888ca275\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-storage:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-storage-9.6.0.aar\b1849bcd1ba4075987f191a3cc18378e\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-storage-9.6.0.aar\b1849bcd1ba4075987f191a3cc18378e\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-database-9.6.0.aar\4e73e7a0764a111f37024580e81fe3b1\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-database-9.6.0.aar\4e73e7a0764a111f37024580e81fe3b1\AndroidManifest.xml:3:5-42
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\eb58e42a57ab295f446260fafc4820a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\eb58e42a57ab295f446260fafc4820a0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\volley-integration-1.4.0.aar\5e50cd7bd729a70f433be0b4e783a092\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\volley-integration-1.4.0.aar\5e50cd7bd729a70f433be0b4e783a092\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.6.0.aar\7237bec897cbf4f5197be82e9651d209\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.6.0.aar\7237bec897cbf4f5197be82e9651d209\AndroidManifest.xml:23:5-42
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\d957c9e4b330f1b152956cac94857a49\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\d957c9e4b330f1b152956cac94857a49\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d471b4ff1802f0b5c16d5f67b33b951b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d471b4ff1802f0b5c16d5f67b33b951b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-core-9.6.0.aar\bf415264dd36eeca5eacfc483a110528\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-core:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-core-9.6.0.aar\bf415264dd36eeca5eacfc483a110528\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-auth-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-auth-common-9.6.0.aar\906dc235ef905900396c13cfc1759000\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-auth-common-9.6.0.aar\906dc235ef905900396c13cfc1759000\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth-module:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-auth-module-9.6.0.aar\5844b8bed467534ad8820064e412e18c\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-auth-module:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-auth-module-9.6.0.aar\5844b8bed467534ad8820064e412e18c\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-base-9.6.0.aar\3b00b5353af19481a0bb48039106f12b\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-base-9.6.0.aar\3b00b5353af19481a0bb48039106f12b\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-database-connection:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-9.6.0.aar\c9e94ccdb68f18a5891d1e62e67375f0\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-9.6.0.aar\c9e94ccdb68f18a5891d1e62e67375f0\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-common-9.6.0.aar\d68b4820039f2493780fad6e23819042\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-common-9.6.0.aar\d68b4820039f2493780fad6e23819042\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.6.0.aar\f14805d9ebf80f01052d3f409dd729a3\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.6.0.aar\f14805d9ebf80f01052d3f409dd729a3\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-9.6.0.aar\74df1712e146f1b49ed57f3dbd511935\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-9.6.0.aar\74df1712e146f1b49ed57f3dbd511935\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.6.0.aar\b641198281d2763ca882c1f5a39e7647\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.6.0.aar\b641198281d2763ca882c1f5a39e7647\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\617f32e05fc63f89cc92a7e61dd30b49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\617f32e05fc63f89cc92a7e61dd30b49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\d9c59272268e1958ab8919188384078a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\d9c59272268e1958ab8919188384078a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\a4e4478f61d33065818878845fa65e0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\a4e4478f61d33065818878845fa65e0a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\2b627b6fb0945389833515ee1cf872a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\2b627b6fb0945389833515ee1cf872a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\4bf5c18304ee0cdc15c64ed0453a53dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\4bf5c18304ee0cdc15c64ed0453a53dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\83d4dfb2b78ad9b196b69f98cf9eed6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\83d4dfb2b78ad9b196b69f98cf9eed6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\cf0e7410e97fdb7ff6464b19ef7ef343\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\cf0e7410e97fdb7ff6464b19ef7ef343\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\1e69493d792f9f7fc765277b70e9cfe5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\1e69493d792f9f7fc765277b70e9cfe5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\b8ea7d214b71b5fdf00c36af790cda2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\b8ea7d214b71b5fdf00c36af790cda2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\4d06988a7557e7683dc3cba6e16567dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\4d06988a7557e7683dc3cba6e16567dc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\6076a4829adbc0511b6c80d95dec6a7b\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\6076a4829adbc0511b6c80d95dec6a7b\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:31:5-33:41
+INJECTED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:31:5-33:41
 	android:targetSdkVersion
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:33:9-38
-		INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml
-		INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:33:9-38
+		INJECTED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml
+		INJECTED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:32:9-35
-		INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml
-		INJECTED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:32:9-35
+		INJECTED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml
+		INJECTED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml
 application
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:35:5-106:19
-MERGED from [org.tensorflow:tensorflow-android:1.8.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/40a9a8b047a7e3fbda71c3e4f598152f/AndroidManifest.xml:5:5-6:19
-MERGED from [org.tensorflow:tensorflow-android:1.8.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/40a9a8b047a7e3fbda71c3e4f598152f/AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.firebase:firebase-auth:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.6.0.aar/ccc01da2270bb4f6ee9dba55a36a7408/AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-auth:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.6.0.aar/ccc01da2270bb4f6ee9dba55a36a7408/AndroidManifest.xml:19:5-20:19
-MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:11:5-15:19
-MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:24:5-19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/befac4f3741bacc8f4975dc759559b2b/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/vignesh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/befac4f3741bacc8f4975dc759559b2b/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-core:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/a0e38a274d605a8867ef39d44bdc85f6/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-core:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-core-9.6.0.aar/a0e38a274d605a8867ef39d44bdc85f6/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-auth-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.6.0.aar/2befe7140923404529ff129aa3d9de74/AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.firebase:firebase-auth-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.6.0.aar/2befe7140923404529ff129aa3d9de74/AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.android.gms:play-services-base:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/66783b889d7a818b328ee1afd6e7c7ca/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-base:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/66783b889d7a818b328ee1afd6e7c7ca/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/34eb83b8ac33470e3f4ae6d74bb39757/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.firebase:firebase-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/34eb83b8ac33470e3f4ae6d74bb39757/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.0.aar/4bff1437d622fd7e6069e307b0d91bd0/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.0.aar/4bff1437d622fd7e6069e307b0d91bd0/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/856b6352d0c722e8fbc8d9e44e382fd2/AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/856b6352d0c722e8fbc8d9e44e382fd2/AndroidManifest.xml:19:5-21:19
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:35:5-100:19
+MERGED from [org.tensorflow:tensorflow-android:1.8.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.8.0.aar\c2dcb821e6e9a73859323cece2ba4c4f\AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.8.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\tensorflow-android-1.8.0.aar\c2dcb821e6e9a73859323cece2ba4c4f\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-auth:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-auth-9.6.0.aar\4289ed8e93ff00767ed4a512888ca275\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-auth-9.6.0.aar\4289ed8e93ff00767ed4a512888ca275\AndroidManifest.xml:19:5-20:19
+MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\volley-integration-1.4.0.aar\5e50cd7bd729a70f433be0b4e783a092\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.bumptech.glide:volley-integration:1.4.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\volley-integration-1.4.0.aar\5e50cd7bd729a70f433be0b4e783a092\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.6.0.aar\7237bec897cbf4f5197be82e9651d209\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.6.0.aar\7237bec897cbf4f5197be82e9651d209\AndroidManifest.xml:24:5-19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d471b4ff1802f0b5c16d5f67b33b951b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\d471b4ff1802f0b5c16d5f67b33b951b\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-core-9.6.0.aar\bf415264dd36eeca5eacfc483a110528\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-core-9.6.0.aar\bf415264dd36eeca5eacfc483a110528\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-auth-common-9.6.0.aar\906dc235ef905900396c13cfc1759000\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-auth-common-9.6.0.aar\906dc235ef905900396c13cfc1759000\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-base-9.6.0.aar\3b00b5353af19481a0bb48039106f12b\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-base-9.6.0.aar\3b00b5353af19481a0bb48039106f12b\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-common-9.6.0.aar\d68b4820039f2493780fad6e23819042\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-common-9.6.0.aar\d68b4820039f2493780fad6e23819042\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.6.0.aar\f14805d9ebf80f01052d3f409dd729a3\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.6.0.aar\f14805d9ebf80f01052d3f409dd729a3\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.6.0.aar\b641198281d2763ca882c1f5a39e7647\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.6.0.aar\b641198281d2763ca882c1f5a39e7647\AndroidManifest.xml:19:5-21:19
 	android:label
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:37:9-30
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:37:9-30
 	android:debuggable
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:36:9-34
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:36:9-34
 	android:icon
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:38:9-38
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:38:9-38
 	android:allowBackup
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:35:18-44
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:35:18-44
 	android:theme
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:39:9-45
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:39:9-45
 activity#org.tensorflow.demo.MainActivity
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:41:9-50:20
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:41:9-50:20
 	android:label
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:44:13-34
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:44:13-34
 	android:theme
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:43:13-56
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:43:13-56
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:42:13-60
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:45:13-49:29
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:42:13-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:45:13-49:29
 action#android.intent.action.MAIN
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:46:17-69
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:46:25-66
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:48:17-77
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:48:17-77
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:48:27-74
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:48:27-74
 activity#org.tensorflow.demo.DetectorActivity
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:52:9-64:20
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:52:9-58:20
 	android:screenOrientation
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:54:19-55
-	android:launchMode
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:53:19-50
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:53:19-55
+	android:label
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:54:19-40
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:52:19-70
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.LEANBACK_LAUNCHER
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:56:13-60:29
-category#android.intent.category.LEANBACK_LAUNCHER
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:59:17-86
-	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:59:27-83
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:52:19-70
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:61:13-63:49
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:55:13-57:49
 	android:value
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:63:17-46
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:57:17-46
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:62:17-63
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:56:17-63
 activity#org.tensorflow.demo.WikiActivity
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:66:9-75:20
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:60:9-69:20
 	android:parentActivityName
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:70:13-78
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:64:13-78
 	android:label
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:68:13-34
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:62:13-34
 	android:theme
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:69:13-62
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:63:13-62
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:67:13-41
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:61:13-41
 activity#org.tensorflow.demo.dbView
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:77:9-86:20
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:71:9-80:20
 	android:parentActivityName
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:81:13-74
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:75:13-74
 	android:label
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:79:13-34
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:73:13-34
 	android:theme
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:80:13-62
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:74:13-62
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:78:13-35
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:72:13-35
 activity#org.tensorflow.demo.Memory
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:88:9-97:20
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:82:9-91:20
 	android:parentActivityName
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:92:13-68
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:86:13-68
 	android:label
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:90:13-34
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:84:13-34
 	android:theme
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:91:13-62
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:85:13-62
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:89:13-35
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:83:13-35
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:99:9-101:70
+ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:93:9-95:70
 	android:value
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:101:13-68
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:95:13-68
 	android:name
-		ADDED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:100:13-58
+		ADDED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:94:13-58
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-108:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+IMPLIED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:18:1-102:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/vignesh/Documents/WAILA/tensorflow/examples/android/AndroidManifest.xml:18:1-108:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\vigne\Documents\WAILA\tensorflow\examples\android\AndroidManifest.xml:18:1-102:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
 meta-data#com.bumptech.glide.integration.volley.VolleyGlideModule
-ADDED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:12:9-14:43
+ADDED from [com.github.bumptech.glide:volley-integration:1.4.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\volley-integration-1.4.0.aar\5e50cd7bd729a70f433be0b4e783a092\AndroidManifest.xml:12:9-14:43
 	android:value
-		ADDED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:14:13-40
+		ADDED from [com.github.bumptech.glide:volley-integration:1.4.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\volley-integration-1.4.0.aar\5e50cd7bd729a70f433be0b4e783a092\AndroidManifest.xml:14:13-40
 	android:name
-		ADDED from [com.github.bumptech.glide:volley-integration:1.4.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/volley-integration-1.4.0.aar/db2f2028281d045bf37bf2a2841f79d7/AndroidManifest.xml:13:13-83
+		ADDED from [com.github.bumptech.glide:volley-integration:1.4.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\volley-integration-1.4.0.aar\5e50cd7bd729a70f433be0b4e783a092\AndroidManifest.xml:13:13-83
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.6.0.aar\7237bec897cbf4f5197be82e9651d209\AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.6.0.aar\7237bec897cbf4f5197be82e9651d209\AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.6.0.aar/ff1387b68fba8a70388b6ce39726d2ab/AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-maps-9.6.0.aar\7237bec897cbf4f5197be82e9651d209\AndroidManifest.xml:21:52-75
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/66783b889d7a818b328ee1afd6e7c7ca/AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-base-9.6.0.aar\3b00b5353af19481a0bb48039106f12b\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/66783b889d7a818b328ee1afd6e7c7ca/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-base-9.6.0.aar\3b00b5353af19481a0bb48039106f12b\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/66783b889d7a818b328ee1afd6e7c7ca/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-base-9.6.0.aar\3b00b5353af19481a0bb48039106f12b\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/66783b889d7a818b328ee1afd6e7c7ca/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-base-9.6.0.aar\3b00b5353af19481a0bb48039106f12b\AndroidManifest.xml:19:19-85
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:27:17-104
-intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:28:11-30:27
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:27:17-104
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:27:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.6.0.aar/c71f2e98213b3fa3d3942a01b94e54cb/AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.6.0.aar\858bc6ba6d58209c4ecb0551a9eab137\AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.6.0.aar/53f697ee3d6447fffefea1c5512812fd/AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.6.0.aar\6c5d8ae8588bb58730097bdfb9fc6204\AndroidManifest.xml:32:16-87
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:22:5-81
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:24:17-71
 permission#org.tensorflow.demo.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:26:22-76
 uses-permission#org.tensorflow.demo.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:30:9-36:20
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:30:9-36:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:30:19-84
-intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:31:13-35:29
-intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+org.tensorflow.demo
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:31:13-35:29
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:31:13-35:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:org.tensorflow.demo
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:31:13-35:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:32:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:33:17-85
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:33:17-85
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:33:25-83
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:33:25-83
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:34:17-60
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:34:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:34:27-58
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:34:27-58
 category#org.tensorflow.demo
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:34:17-60
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:34:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:34:27-58
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:34:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:40:9-119
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:40:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:40:93-117
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:40:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:40:19-92
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:40:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:44:9-48:19
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:44:9-48:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:44:83-106
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:44:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:44:18-82
-intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:45:13-47:29
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:44:18-82
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:45:13-47:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:45:28-51
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:45:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:46:17-79
+ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:46:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.6.0.aar/5e0ea6cbc7a231ea0ceacd869ed02567/AndroidManifest.xml:46:25-77
+		ADDED from [com.google.firebase:firebase-iid:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.6.0.aar\bd2988e5dcc59389dfe6afb37c1d4998\AndroidManifest.xml:46:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/34eb83b8ac33470e3f4ae6d74bb39757/AndroidManifest.xml:6:9-175
+ADDED from [com.google.firebase:firebase-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-common-9.6.0.aar\d68b4820039f2493780fad6e23819042\AndroidManifest.xml:6:9-175
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/34eb83b8ac33470e3f4ae6d74bb39757/AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-common-9.6.0.aar\d68b4820039f2493780fad6e23819042\AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/34eb83b8ac33470e3f4ae6d74bb39757/AndroidManifest.xml:6:125-149
+		ADDED from [com.google.firebase:firebase-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-common-9.6.0.aar\d68b4820039f2493780fad6e23819042\AndroidManifest.xml:6:125-149
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/34eb83b8ac33470e3f4ae6d74bb39757/AndroidManifest.xml:6:150-173
+		ADDED from [com.google.firebase:firebase-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-common-9.6.0.aar\d68b4820039f2493780fad6e23819042\AndroidManifest.xml:6:150-173
 	android:name
-		ADDED from [com.google.firebase:firebase-common:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/firebase-common-9.6.0.aar/34eb83b8ac33470e3f4ae6d74bb39757/AndroidManifest.xml:6:79-124
+		ADDED from [com.google.firebase:firebase-common:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\firebase-common-9.6.0.aar\d68b4820039f2493780fad6e23819042\AndroidManifest.xml:6:79-124
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/856b6352d0c722e8fbc8d9e44e382fd2/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.6.0.aar\b641198281d2763ca882c1f5a39e7647\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/856b6352d0c722e8fbc8d9e44e382fd2/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.6.0.aar\b641198281d2763ca882c1f5a39e7647\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:9.6.0] /home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/856b6352d0c722e8fbc8d9e44e382fd2/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:9.6.0] C:\Users\vigne\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.6.0.aar\b641198281d2763ca882c1f5a39e7647\AndroidManifest.xml:20:20-65

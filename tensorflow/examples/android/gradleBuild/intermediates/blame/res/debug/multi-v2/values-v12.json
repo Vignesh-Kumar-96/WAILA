@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/vignesh/Documents/WAILA/tensorflow/examples/android/gradleBuild/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml",
+            "outputFile": "C:\\Users\\vigne\\Documents\\WAILA\\tensorflow\\examples\\android\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v12\\values-v12.xml",
             "map": [
                 {
-                    "source": "/home/vignesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a5bf15c87030f11a96e3782db1d42542/res/values-v12/values-v12.xml",
+                    "source": "C:\\Users\\vigne\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\eb58e42a57ab295f446260fafc4820a0\\res\\values-v12\\values-v12.xml",
                     "from": {
                         "startLines": "2,5,8,9",
                         "startColumns": "4,4,4,4",

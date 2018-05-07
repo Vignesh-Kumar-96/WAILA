@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/vignesh/Documents/WAILA/tensorflow/examples/android/gradleBuild/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "C:\\Users\\vigne\\Documents\\WAILA\\tensorflow\\examples\\android\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
             "map": [
                 {
-                    "source": "/home/vignesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a5bf15c87030f11a96e3782db1d42542/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "C:\\Users\\vigne\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\eb58e42a57ab295f446260fafc4820a0\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/vignesh/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7b5d2b02d30a61573982d12d84f155a8/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "C:\\Users\\vigne\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\4d06988a7557e7683dc3cba6e16567dc\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

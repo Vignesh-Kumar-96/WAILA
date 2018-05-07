@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/home/vignesh/Documents/WAILA/tensorflow/examples/android/gradleBuild/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml",
+            "outputFile": "C:\\Users\\vigne\\Documents\\WAILA\\tensorflow\\examples\\android\\gradleBuild\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uk\\values-uk.xml",
             "map": [
                 {
-                    "source": "/home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.0.aar/66783b889d7a818b328ee1afd6e7c7ca/res/values-uk/values.xml",
+                    "source": "C:\\Users\\vigne\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\eb58e42a57ab295f446260fafc4820a0\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,215,317,423,509,617,735,814,894,975,1081,1188,1286,1394,1500,1609,1779,1879",
+                        "endColumns": "109,101,105,85,107,117,78,79,80,105,106,97,107,105,108,169,99,80",
+                        "endOffsets": "210,312,418,504,612,730,809,889,970,1076,1183,1281,1389,1495,1604,1774,1874,1955"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,215,317,423,509,617,735,814,894,975,1081,1188,1286,1394,1500,1609,1779,5009",
+                        "endColumns": "109,101,105,85,107,117,78,79,80,105,106,97,107,105,108,169,99,80",
+                        "endOffsets": "210,312,418,504,612,730,809,889,970,1076,1183,1281,1389,1495,1604,1774,1874,5085"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\vigne\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.6.0.aar\\3b00b5353af19481a0bb48039106f12b\\res\\values-uk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/vignesh/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.0.aar/856b6352d0c722e8fbc8d9e44e382fd2/res/values-uk/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "343",
-                        "endColumns": "249",
-                        "endOffsets": "588"
-                    },
-                    "to": {
-                        "startLines": "27",
-                        "startColumns": "4",
-                        "startOffsets": "3129",
-                        "endColumns": "249",
-                        "endOffsets": "3374"
-                    }
-                },
-                {
-                    "source": "/home/vignesh/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/7b5d2b02d30a61573982d12d84f155a8/res/values-uk/values-uk.xml",
+                    "source": "C:\\Users\\vigne\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\4d06988a7557e7683dc3cba6e16567dc\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -55,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "/home/vignesh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/a5bf15c87030f11a96e3782db1d42542/res/values-uk/values-uk.xml",
+                    "source": "C:\\Users\\vigne\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.6.0.aar\\b641198281d2763ca882c1f5a39e7647\\res\\values-uk\\values.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,215,317,423,509,617,735,814,894,975,1081,1188,1286,1394,1500,1609,1779,1879",
-                        "endColumns": "109,101,105,85,107,117,78,79,80,105,106,97,107,105,108,169,99,80",
-                        "endOffsets": "210,312,418,504,612,730,809,889,970,1076,1183,1281,1389,1495,1604,1774,1874,1955"
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "249",
+                        "endOffsets": "588"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,39",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,215,317,423,509,617,735,814,894,975,1081,1188,1286,1394,1500,1609,1779,5009",
-                        "endColumns": "109,101,105,85,107,117,78,79,80,105,106,97,107,105,108,169,99,80",
-                        "endOffsets": "210,312,418,504,612,730,809,889,970,1076,1183,1281,1389,1495,1604,1774,1874,5085"
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "3129",
+                        "endColumns": "249",
+                        "endOffsets": "3374"
                     }
                 }
             ]

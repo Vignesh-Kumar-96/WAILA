@@ -1,3 +1,3 @@
-/home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
-/home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
-/home/vignesh/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/tensorflow_demo.dir
+C:/Users/vigne/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/tensorflow_demo.dir
+C:/Users/vigne/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/vigne/Documents/WAILA/tensorflow/examples/android/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir

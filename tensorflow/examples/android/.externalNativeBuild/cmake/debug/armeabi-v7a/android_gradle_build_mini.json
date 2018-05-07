@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "C:\\Users\\vigne\\Documents\\WAILA\\tensorflow\\examples\\android\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\vigne\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\vigne\\Documents\\WAILA\\tensorflow\\examples\\android\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "tensorflow_demo-Debug-armeabi-v7a": {
+      "artifactName": "tensorflow_demo",
+      "buildCommand": "C:\\Users\\vigne\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\vigne\\Documents\\WAILA\\tensorflow\\examples\\android\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target tensorflow_demo",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\vigne\\Documents\\WAILA\\tensorflow\\examples\\android\\gradleBuild\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libtensorflow_demo.so"
+    }
+  }
+}
