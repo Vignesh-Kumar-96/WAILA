@@ -1,4 +1,4 @@
-#Sun May 06 23:40:27 CDT 2018
-base.0=C\:\\Users\\vigne\\Documents\\WAILA\\tensorflow\\examples\\android\\gradleBuild\\intermediates\\transforms\\dexMerger\\debug\\6
+#Mon May 07 01:10:49 CDT 2018
+base.0=C\:\\Users\\vigne\\Documents\\WAILA\\tensorflow\\examples\\android\\gradleBuild\\intermediates\\transforms\\dexMerger\\debug\\3
 path.0=classes.dex
 renamed.0=classes.dex

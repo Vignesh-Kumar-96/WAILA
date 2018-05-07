@@ -24,6 +24,7 @@ import java.util.ArrayList;
 
 public class dbView extends AppCompatActivity implements PhotoManager.getDataListener{
 
+    protected static String ANON_USER = "Anonymous User";
     private LinearLayoutManager rv_layout_mgr;
     private ArrayList<PhotoObject> memories;
     private PhotoManager photoManager = PhotoManager.getInstance();
@@ -71,11 +72,15 @@ public class dbView extends AppCompatActivity implements PhotoManager.getDataLis
                 super.onBackPressed();
                 return true;
             case R.id.delete:
-                if(memories.size()>0){
-                    confirmDialog();
+                if(!photoManager.userName.equals(ANON_USER)) {
+                    if (memories.size() > 0) {
+                        confirmDialog();
+                    } else {
+                        Toast.makeText(getApplicationContext(), "No memories to delete!", Toast.LENGTH_SHORT).show();
+                    }
                 }
                 else{
-                    Toast.makeText(getApplicationContext(), "No memories to delete!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "You do not have the permissions to delete the public database!", Toast.LENGTH_SHORT).show();
                 }
                 return true;
         }
