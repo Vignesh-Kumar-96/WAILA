@@ -10,7 +10,7 @@
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/org/tensorflow/demo/WikiActivity.java" line="103" />
-    <bookmark url="file://$PROJECT_DIR$/src/org/tensorflow/demo/WikiActivity.java" line="264" />
+    <bookmark url="file://$PROJECT_DIR$/src/org/tensorflow/demo/WikiActivity.java" line="272" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f067fd4b-34c9-4c40-931a-9ed31387660b" name="Default" comment="" />
@@ -58,8 +58,28 @@
       <file leaf-file-name="WikiActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/WikiActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="204" column="16" lean-forward="false" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
+            <state relative-caret-position="403">
+              <caret line="209" column="17" lean-forward="false" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/dbView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="54" column="69" lean-forward="false" selection-start-line="54" selection-start-column="69" selection-end-line="54" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Memory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/Memory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="86" column="8" lean-forward="false" selection-start-line="86" selection-start-column="8" selection-end-line="90" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -71,18 +91,18 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="77">
+              <caret line="63" column="40" lean-forward="false" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="-1160">
+              <caret line="140" column="22" lean-forward="false" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="22" />
               <folding>
                 <element signature="e#1648#2611#0" expanded="true" />
                 <element signature="e#2610#2611#0" expanded="true" />
@@ -95,21 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirebaseLoginFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/FirebaseLoginFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1947">
-              <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CameraActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/CameraActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4326">
-              <caret line="263" column="3" lean-forward="false" selection-start-line="263" selection-start-column="3" selection-end-line="263" selection-end-column="3" />
+            <state relative-caret-position="163">
+              <caret line="278" column="70" lean-forward="false" selection-start-line="278" selection-start-column="68" selection-end-line="278" selection-end-column="70" />
               <folding>
                 <element signature="e#2864#2865#0" expanded="true" />
                 <element signature="e#2891#2892#0" expanded="true" />
@@ -152,16 +162,6 @@
               <folding>
                 <element signature="e#0#351#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -210,16 +210,16 @@
       <find>intent-fil</find>
       <find>LAUNC</find>
       <find>activity</find>
-      <find>intent-filter</find>
       <find>firebaseLogi</find>
       <find>firebaseLoginFinish</find>
       <find>hasPermission</find>
       <find>onReques</find>
       <find>hasP</find>
-      <find>intent</find>
       <find>storage</find>
       <find>grantResults</find>
+      <find>intent-filter</find>
       <find>ntent</find>
+      <find>intent</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -1316,7 +1316,6 @@
         <option value="$PROJECT_DIR$/res/values/template-styles.xml" />
         <option value="$PROJECT_DIR$/res/drawable/side_nav_bar.xml" />
         <option value="$PROJECT_DIR$/res/menu/activity_main_drawer.xml" />
-        <option value="$PROJECT_DIR$/src/org/tensorflow/demo/FirebaseLoginFragment.java" />
         <option value="$PROJECT_DIR$/src/PhotoObject.java" />
         <option value="$PROJECT_DIR$/src/org/tensorflow/demo/DetectorActivity.java" />
         <option value="$PROJECT_DIR$/src/org/tensorflow/demo/TensorFlowMultiBoxDetector.java" />
@@ -1344,14 +1343,15 @@
         <option value="$PROJECT_DIR$/src/org/tensorflow/demo/Memory.java" />
         <option value="$PROJECT_DIR$/res/layout/memory_layout.xml" />
         <option value="$PROJECT_DIR$/res/layout/pic_text_row.xml" />
-        <option value="$PROJECT_DIR$/src/org/tensorflow/demo/WikiActivity.java" />
         <option value="$PROJECT_DIR$/bin/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/src/org/tensorflow/demo/dbView.java" />
         <option value="$PROJECT_DIR$/res/layout/login_or_create.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/org/tensorflow/demo/CameraActivity.java" />
+        <option value="$PROJECT_DIR$/src/org/tensorflow/demo/FirebaseLoginFragment.java" />
         <option value="$PROJECT_DIR$/src/org/tensorflow/demo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/org/tensorflow/demo/WikiActivity.java" />
+        <option value="$PROJECT_DIR$/src/org/tensorflow/demo/dbView.java" />
       </list>
     </option>
   </component>
@@ -1438,7 +1438,7 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/vignesh/Documents/tensorflow/tensorflow/examples/android/src/org/tensorflow/demo/tracking/MultiBoxTracker.java" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/res/drawable" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1525668202553" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1525669635351" />
     <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/gradleBuild/outputs/apk/debug/android-debug.apk" />
   </component>
   <component name="RecentsManager">
@@ -1983,7 +1983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/Memory.java" />
     <entry file="file://$PROJECT_DIR$/res/layout/db_results.xml" />
     <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1995,7 +1994,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/DynamicAdapter.java" />
     <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/PhotoManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/dbView.java" />
     <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/LegacyCameraConnectionFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -2044,17 +2042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/FirebaseCreateAccountFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="657">
@@ -2065,26 +2052,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/FirebaseLoginFragment.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1947">
-          <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        <state relative-caret-position="77">
+          <caret line="63" column="40" lean-forward="false" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/WikiActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/FirebaseLoginFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="204" column="16" lean-forward="false" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="16" />
+        <state relative-caret-position="163">
+          <caret line="58" column="62" lean-forward="false" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1160">
+          <caret line="140" column="22" lean-forward="false" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="22" />
+          <folding>
+            <element signature="e#1648#2611#0" expanded="true" />
+            <element signature="e#2610#2611#0" expanded="true" />
+            <element signature="e#3053#3200#0" expanded="true" />
+            <element signature="e#3199#3200#0" expanded="true" />
+            <element signature="e#5523#5524#0" expanded="true" />
+            <element signature="e#5560#5561#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/CameraActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4326">
-          <caret line="263" column="3" lean-forward="false" selection-start-line="263" selection-start-column="3" selection-end-line="263" selection-end-column="3" />
+        <state relative-caret-position="163">
+          <caret line="278" column="70" lean-forward="false" selection-start-line="278" selection-start-column="68" selection-end-line="278" selection-end-column="70" />
           <folding>
             <element signature="e#2864#2865#0" expanded="true" />
             <element signature="e#2891#2892#0" expanded="true" />
@@ -2096,18 +2101,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/Memory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#1648#2611#0" expanded="true" />
-            <element signature="e#2610#2611#0" expanded="true" />
-            <element signature="e#3053#3200#0" expanded="true" />
-            <element signature="e#3199#3200#0" expanded="true" />
-            <element signature="e#5523#5524#0" expanded="true" />
-            <element signature="e#5560#5561#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="298">
+          <caret line="86" column="8" lean-forward="false" selection-start-line="86" selection-start-column="8" selection-end-line="90" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/WikiActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="209" column="17" lean-forward="false" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/tensorflow/demo/dbView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="54" column="69" lean-forward="false" selection-start-line="54" selection-start-column="69" selection-end-line="54" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>

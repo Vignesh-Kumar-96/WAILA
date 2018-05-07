@@ -40,7 +40,7 @@ public class dbView extends AppCompatActivity implements PhotoManager.getDataLis
         pb = (ProgressBar) findViewById(R.id.progressBar2);
         pb.setVisibility(View.VISIBLE);
         recyclerView = (RecyclerView) findViewById(R.id.searchResults);
-
+        memories = new ArrayList<>();
         rv_layout_mgr = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(rv_layout_mgr);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
@@ -52,7 +52,7 @@ public class dbView extends AppCompatActivity implements PhotoManager.getDataLis
     public void getDataCallback(ArrayList<PhotoObject> photoObjects) {
         //Log.d("PhotoFragment", "got some photos for name query " + name);
         if (photoObjects == null || photoObjects.size() == 0) {
-            Toast.makeText(this, "No memories :(", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "No memories :(", Toast.LENGTH_SHORT).show();
             pb.setVisibility(View.GONE);
             return;
         }

@@ -202,6 +202,14 @@ public class WikiActivity extends AppCompatActivity implements WikiJSON.IWikiJSO
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onBackPressed(){
+        Intent i = new Intent(getApplicationContext(),DetectorActivity.class);
+        startActivity(i);
+        super.onBackPressed();
+        finish();
+    }
+
     public void onRequestPermissionsResult(int requestCode,
                                            String permissions[], int[] grantResults) {
         switch (requestCode) {
