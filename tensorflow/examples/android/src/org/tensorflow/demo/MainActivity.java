@@ -3,8 +3,11 @@ package org.tensorflow.demo;
 /**
  * Created by vignesh on 5/5/18.
  */
+import android.Manifest;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -19,6 +22,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -34,6 +38,9 @@ public class MainActivity extends AppCompatActivity
     protected FirebaseAuth.AuthStateListener mAuthListener;
     protected String userName;
     private Button main_button;
+    private static final int PERMISSIONS_REQUEST = 1;
+
+    private static final String PERMISSION_CAMERA = android.Manifest.permission.CAMERA;
     private TextView login_text;
     PhotoManager photoManager;
 
@@ -96,9 +103,50 @@ public class MainActivity extends AppCompatActivity
 
         photoManager.updateCurrentUserName(userName);
 
-        Intent toDetector = new Intent(this, DetectorActivity.class);
-        startActivity(toDetector);
+
+        if (hasPermission()) {
+            Intent toDetector = new Intent(this, DetectorActivity.class);
+            startActivity(toDetector);
+        } else {
+            requestPermission();
+        }
+
+
     }
+
+    private boolean hasPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            return checkSelfPermission(PERMISSION_CAMERA) == PackageManager.PERMISSION_GRANTED;
+        } else {
+            return true;
+        }
+    }
+
+    private void requestPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (shouldShowRequestPermissionRationale(PERMISSION_CAMERA)) {
+                Toast.makeText(this,
+                        "Camera permission are required for WAILA", Toast.LENGTH_LONG).show();
+            }
+            requestPermissions(new String[] {PERMISSION_CAMERA}, PERMISSIONS_REQUEST);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(
+            final int requestCode, final String[] permissions, final int[] grantResults) {
+        if (requestCode == PERMISSIONS_REQUEST) {
+            if (grantResults.length > 0
+                    && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Intent toDetector = new Intent(this, DetectorActivity.class);
+                startActivity(toDetector);
+            } else {
+                requestPermission();
+            }
+        }
+    }
+
+
 
     public void firebaseFromLoginToCreateAccount() {
         getFragmentManager().popBackStack();
